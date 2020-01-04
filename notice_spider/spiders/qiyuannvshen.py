@@ -7,8 +7,8 @@ from notice_spider.items import NoticeSpiderItem
 import redis
 
 
-class TianlongbabuSpider(scrapy.Spider):
-    name = 'TianlongbabuSpider'
+class QiyuannvshenSpider(scrapy.Spider):
+    name = 'QiyuannvshenSpider'
 
     def __init__(self, *args, **wkargs):
         super().__init__(**wkargs)
