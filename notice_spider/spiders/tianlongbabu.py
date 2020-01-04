@@ -241,21 +241,3 @@ class TianlongbabuSpider(scrapy.Spider):
     def extract_notice_belong(self, li):
         pass
 
-    def get_proxy_by_redis(self, key='AG_Proxy_Seabright_广州市'):
-        # 获取供应商IP
-        proxies = self.conn.get(key).decode()
-        if isinstance(proxies, str):
-            proxies = json.loads(proxies)
-        results = []
-        for proxy in proxies:
-            if isinstance(proxy, str):
-                proxy = json.loads(proxy)
-            proxy_info = {
-                "http": "http://%s" % proxy.get('ip'),
-                "https": "http://%s" % proxy.get('ip')
-            }
-            results.append({
-                'proxy': proxy_info
-            })
-        proxy = random.choice(results)
-        return proxy

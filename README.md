@@ -28,7 +28,7 @@
 - 天龙八部手游官网  最新、新闻、公告、活动内容(https://tlsy.cy.com/list/hd/)
 - 起源女神手游官网 攻略、公告、新闻、活动内容(http://qyns.zlongame.com/jx/qynsyxgl/)
 - 斗罗大陆手游官网　新闻中心内容(包含活动、新闻、公告等 http://dl.qidian.com/index.php/home/dldl/newsList) 
-- 
+- 王者荣耀手游官网 包含新闻中心、公告、活动等内容(https://pvp.qq.com/web201706/newsindex.shtml)
 - 
 - 
 - 
