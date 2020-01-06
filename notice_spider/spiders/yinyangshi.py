@@ -76,6 +76,20 @@ class YinyangshiSpider(scrapy.Spider):
             item['notice_belong'] = ''  # 所属
             # print(item)
             yield item
+        page_desc = response.xpath("//span[@class='pager-list']//a/text()").extract()[0].strip()
+        cur_page = page_desc.split('/')[0]
+        total_page = page_desc.split('/')[1]
+        if cur_page < total_page:
+            print('存在下一页,当前第{}页'.format(self.page))
+            self.page += 1
+            yield scrapy.Request("https://yys.163.com/news/huodong/index_{}.html".format(self.page),
+                                 method='GET',
+                                 callback=self.parse_activity,
+                                 headers=self.headers)
+        else:
+            print("不存在下一页")
+
+
         # if '下一页' not in response.xpath('(//a[@disabled="disabled"])').xpath('string()').extract():
         #     print('存在下一页,当前第{}页'.format(self.page))
         #     self.page += 1
