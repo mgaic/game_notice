@@ -6,3 +6,518 @@ var NewsObj7650874418127405={"data":"","from":"go","msg":{"page":1,"pagesize":10
 {"data":"","from":"go","msg":{"page":1,"pagesize":10,"result":[{"guid":"0","iBiz":"182","iDocID":"9581763078409499979","iIsRedirect":"0","iMark":"0","iNewsId":"9269915","iRecId":"67655","iSubType":"1372","iTime":"","iTop":"0","iTotalPlay":"1.3万","iType":"1361","sAuthor":"和平精英官方团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":558,\"H\":304,\"S\":32307,\"Url\":\"//shp.qpic.cn/cfwebcap/0/535f0dc1592f5d9bd614154043906571/0/?width=558\u0026height=304\"}}","sCreated":"2020-01-03 15:30:14","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/535f0dc1592f5d9bd614154043906571/0/?width=558\u0026height=304","sIdxTime":"2020-01-03 15:30:14","sRedirectURL":"","sTagIds":"19291,19304","sTargetIdxTime":"2020-01-03 15:30:29","sTitle":"1月3日外挂打击公告","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"14585853447745994248","iIsRedirect":"0","iMark":"0","iNewsId":"9230835","iRecId":"67317","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"1.8万","iType":"0","sAuthor":"和平精英官方团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":558,\"H\":304,\"S\":32307,\"Url\":\"//shp.qpic.cn/cfwebcap/0/cae9318fd2370c2ef8a304e20fa31721/0/?width=558\u0026height=304\"}}","sCreated":"2019-12-30 16:28:34","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/cae9318fd2370c2ef8a304e20fa31721/0/?width=558\u0026height=304","sIdxTime":"2019-12-30 16:28:34","sRedirectURL":"","sTagIds":"19291,19302","sTargetIdxTime":"2019-12-30 16:29:40","sTitle":"12月30日外挂打击公告","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"12084045385192885900","iIsRedirect":"0","iMark":"0","iNewsId":"9176176","iRecId":"66970","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"5905","iType":"0","sAuthor":"和平精英 官方团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":500,\"H\":270,\"S\":43880,\"Url\":\"//shp.qpic.cn/cfwebcap/0/dcc37f54875e4d81822a44f7560ef561/0/?width=500\u0026height=270\"}}","sCreated":"2019-12-25 14:17:17","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/dcc37f54875e4d81822a44f7560ef561/0/?width=500\u0026height=270","sIdxTime":"2019-12-25 14:17:17","sRedirectURL":"","sTagIds":"19291","sTargetIdxTime":"2019-12-25 14:18:15","sTitle":"PGL和平精英巅峰锦标赛—圣诞大战，一触即发","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"18390815382817120521","iIsRedirect":"0","iMark":"0","iNewsId":"9124006","iRecId":"66684","iSubType":"1372","iTime":"","iTop":"0","iTotalPlay":"1748","iType":"1361","sAuthor":"和平精英运营团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":3543,\"H\":1993,\"S\":654003,\"Url\":\"//shp.qpic.cn/cfwebcap/0/d53b4120745d2616517a218ace20d593/0/?width=3543\u0026height=1993\"}}","sCreated":"2019-12-20 23:04:45","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/d53b4120745d2616517a218ace20d593/0/?width=3543\u0026height=1993","sIdxTime":"2019-12-20 23:04:45","sRedirectURL":"","sTagIds":"19291,19304","sTargetIdxTime":"2019-12-20 23:05:01","sTitle":"TGC腾讯数字文创节开幕，《和平精英》登陆电竞舞台  ","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"1437066300513342996","iIsRedirect":"0","iMark":"0","iNewsId":"9115851","iRecId":"66621","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"1.0万","iType":"0","sAuthor":"和平精英 官方团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":500,\"H\":270,\"S\":39248,\"Url\":\"//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500\u0026height=270\"}}","sCreated":"2019-12-20 11:37:46","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500\u0026height=270","sIdxTime":"2019-12-20 11:37:46","sRedirectURL":"","sTagIds":"19291","sTargetIdxTime":"2019-12-20 11:38:37","sTitle":"极寒模式启动！演员母其弥雅组队花老湿，斗鱼星专场带你激战寒冬","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"6305360306655887557","iIsRedirect":"0","iMark":"0","iNewsId":"9106644","iRecId":"66556","iSubType":"1372","iTime":"","iTop":"0","iTotalPlay":"2949","iType":"1361","sAuthor":"和平精英运营团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":800,\"H\":369,\"S\":56737,\"Url\":\"//shp.qpic.cn/cfwebcap/0/3a68bcdb98f0aeb972e3173218a92b26/0/?width=800\u0026height=369\"}}","sCreated":"2019-12-19 14:57:28","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/3a68bcdb98f0aeb972e3173218a92b26/0/?width=800\u0026height=369","sIdxTime":"2019-12-19 14:57:28","sRedirectURL":"","sTagIds":"19304","sTargetIdxTime":"2019-12-19 14:58:02","sTitle":"“我们都是和平精英”——硬汉吴京参演爆燃“大片”，实力诠释和平团队精神","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"3091579255322771635","iIsRedirect":"0","iMark":"0","iNewsId":"9104148","iRecId":"66542","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"722","iType":"0","sAuthor":"官方运营","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":800,\"H\":369,\"S\":56737,\"Url\":\"//shp.qpic.cn/cfwebcap/0/59816e7b9674ec6e42a5351c1f6dd4b5/0/?width=800\u0026height=369\"}}","sCreated":"2019-12-19 12:27:38","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/59816e7b9674ec6e42a5351c1f6dd4b5/0/?width=800\u0026height=369","sIdxTime":"2019-12-19 12:27:38","sRedirectURL":"","sTagIds":"","sTargetIdxTime":"2019-12-19 12:29:35","sTitle":"“我们都是和平精英”——硬汉吴京参演爆燃“大片”，实力诠释和平团队精神","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"7218985164559555869","iIsRedirect":"0","iMark":"0","iNewsId":"9104859","iRecId":"66541","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"14.2万","iType":"0","sAuthor":"官方运营","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":690,\"H\":460,\"S\":65672,\"Url\":\"//shp.qpic.cn/cfwebcap/0/384281ce5fc0c9a0c8ccdaf3ec4f8d16/0/?width=690\u0026height=460\"}}","sCreated":"2019-12-19 12:27:44","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/384281ce5fc0c9a0c8ccdaf3ec4f8d16/0/?width=690\u0026height=460","sIdxTime":"2019-12-19 12:27:44","sRedirectURL":"","sTagIds":"","sTargetIdxTime":"2019-12-19 12:28:45","sTitle":"售票开启！和平精英国际冠军杯战歌奏响","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"6748782639188114257","iIsRedirect":"0","iMark":"0","iNewsId":"9096068","iRecId":"66480","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"6802","iType":"0","sAuthor":"小白裙","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":900,\"H\":383,\"S\":59273,\"Url\":\"//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900\u0026height=383\"}}","sCreated":"2019-12-18 17:09:39","sDesc":"首次亮相就爆猛料、送豪礼，“X”策划喊你进来看直播","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900\u0026height=383","sIdxTime":"2019-12-18 17:09:39","sRedirectURL":"","sTagIds":"","sTargetIdxTime":"2019-12-18 17:32:27","sTitle":"看直播赢永久套装 | 神秘策划首度亮相，永久套装、定制周边送不停","sUrl":""},{"guid":"0","iBiz":"182","iDocID":"12610109575600460296","iIsRedirect":"0","iMark":"0","iNewsId":"9093604","iRecId":"66447","iSubType":"0","iTime":"","iTop":"0","iTotalPlay":"1.7万","iType":"0","sAuthor":"和平精英 官方团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":1920,\"H\":1080,\"S\":347207,\"Url\":\"//shp.qpic.cn/cfwebcap/0/def5bdd24de957d2df77ca4675dccae9/0/?width=1920\u0026height=1080\"}}","sCreated":"2019-12-18 13:12:49","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/def5bdd24de957d2df77ca4675dccae9/0/?width=1920\u0026height=1080","sIdxTime":"2019-12-18 13:12:49","sRedirectURL":"","sTagIds":"19290","sTargetIdxTime":"2019-12-18 13:14:11","sTitle":"《激战寒冬》iOS版本苹果商店刷新延迟公告","sUrl":""}],"total":221,"totalpage":23},"status":0}
 {'data': '', 'from': 'go', 'msg': {'page': 1, 'pagesize': 10, 'result': [{'guid': '0', 'iBiz': '182', 'iDocID': '9581763078409499979', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9269915', 'iRecId': '67655', 'iSubType': '1372', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1.3万', 'iType': '1361', 'sAuthor': '和平精英官方团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":558,"H":304,"S":32307,"Url":"//shp.qpic.cn/cfwebcap/0/535f0dc1592f5d9bd614154043906571/0/?width=558&height=304"}}', 'sCreated': '2020-01-03 15:30:14', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/535f0dc1592f5d9bd614154043906571/0/?width=558&height=304', 'sIdxTime': '2020-01-03 15:30:14', 'sRedirectURL': '', 'sTagIds': '19291,19304', 'sTargetIdxTime': '2020-01-03 15:30:29', 'sTitle': '1月3日外挂打击公告', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '14585853447745994248', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9230835', 'iRecId': '67317', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1.8万', 'iType': '0', 'sAuthor': '和平精英官方团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":558,"H":304,"S":32307,"Url":"//shp.qpic.cn/cfwebcap/0/cae9318fd2370c2ef8a304e20fa31721/0/?width=558&height=304"}}', 'sCreated': '2019-12-30 16:28:34', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/cae9318fd2370c2ef8a304e20fa31721/0/?width=558&height=304', 'sIdxTime': '2019-12-30 16:28:34', 'sRedirectURL': '', 'sTagIds': '19291,19302', 'sTargetIdxTime': '2019-12-30 16:29:40', 'sTitle': '12月30日外挂打击公告', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '12084045385192885900', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9176176', 'iRecId': '66970', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '5906', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":500,"H":270,"S":43880,"Url":"//shp.qpic.cn/cfwebcap/0/dcc37f54875e4d81822a44f7560ef561/0/?width=500&height=270"}}', 'sCreated': '2019-12-25 14:17:17', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/dcc37f54875e4d81822a44f7560ef561/0/?width=500&height=270', 'sIdxTime': '2019-12-25 14:17:17', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-25 14:18:15', 'sTitle': 'PGL和平精英巅峰锦标赛—圣诞大战，一触即发', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '18390815382817120521', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9124006', 'iRecId': '66684', 'iSubType': '1372', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1748', 'iType': '1361', 'sAuthor': '和平精英运营团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":3543,"H":1993,"S":654003,"Url":"//shp.qpic.cn/cfwebcap/0/d53b4120745d2616517a218ace20d593/0/?width=3543&height=1993"}}', 'sCreated': '2019-12-20 23:04:45', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/d53b4120745d2616517a218ace20d593/0/?width=3543&height=1993', 'sIdxTime': '2019-12-20 23:04:45', 'sRedirectURL': '', 'sTagIds': '19291,19304', 'sTargetIdxTime': '2019-12-20 23:05:01', 'sTitle': 'TGC腾讯数字文创节开幕，《和平精英》登陆电竞舞台  ', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '1437066300513342996', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9115851', 'iRecId': '66621', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1.0万', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":500,"H":270,"S":39248,"Url":"//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500&height=270"}}', 'sCreated': '2019-12-20 11:37:46', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500&height=270', 'sIdxTime': '2019-12-20 11:37:46', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-20 11:38:37', 'sTitle': '极寒模式启动！演员母其弥雅组队花老湿，斗鱼星专场带你激战寒冬', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '6305360306655887557', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9106644', 'iRecId': '66556', 'iSubType': '1372', 'iTime': '', 'iTop': '0', 'iTotalPlay': '2950', 'iType': '1361', 'sAuthor': '和平精英运营团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":800,"H":369,"S":56737,"Url":"//shp.qpic.cn/cfwebcap/0/3a68bcdb98f0aeb972e3173218a92b26/0/?width=800&height=369"}}', 'sCreated': '2019-12-19 14:57:28', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/3a68bcdb98f0aeb972e3173218a92b26/0/?width=800&height=369', 'sIdxTime': '2019-12-19 14:57:28', 'sRedirectURL': '', 'sTagIds': '19304', 'sTargetIdxTime': '2019-12-19 14:58:02', 'sTitle': '“我们都是和平精英”——硬汉吴京参演爆燃“大片”，实力诠释和平团队精神', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '3091579255322771635', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9104148', 'iRecId': '66542', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '722', 'iType': '0', 'sAuthor': '官方运营', 'sCoverList': [], 'sCoverMap': '{"One":{"W":800,"H":369,"S":56737,"Url":"//shp.qpic.cn/cfwebcap/0/59816e7b9674ec6e42a5351c1f6dd4b5/0/?width=800&height=369"}}', 'sCreated': '2019-12-19 12:27:38', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/59816e7b9674ec6e42a5351c1f6dd4b5/0/?width=800&height=369', 'sIdxTime': '2019-12-19 12:27:38', 'sRedirectURL': '', 'sTagIds': '', 'sTargetIdxTime': '2019-12-19 12:29:35', 'sTitle': '“我们都是和平精英”——硬汉吴京参演爆燃“大片”，实力诠释和平团队精神', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '7218985164559555869', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9104859', 'iRecId': '66541', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '14.2万', 'iType': '0', 'sAuthor': '官方运营', 'sCoverList': [], 'sCoverMap': '{"One":{"W":690,"H":460,"S":65672,"Url":"//shp.qpic.cn/cfwebcap/0/384281ce5fc0c9a0c8ccdaf3ec4f8d16/0/?width=690&height=460"}}', 'sCreated': '2019-12-19 12:27:44', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/384281ce5fc0c9a0c8ccdaf3ec4f8d16/0/?width=690&height=460', 'sIdxTime': '2019-12-19 12:27:44', 'sRedirectURL': '', 'sTagIds': '', 'sTargetIdxTime': '2019-12-19 12:28:45', 'sTitle': '售票开启！和平精英国际冠军杯战歌奏响', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '6748782639188114257', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9096068', 'iRecId': '66480', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '6802', 'iType': '0', 'sAuthor': '小白裙', 'sCoverList': [], 'sCoverMap': '{"One":{"W":900,"H":383,"S":59273,"Url":"//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900&height=383"}}', 'sCreated': '2019-12-18 17:09:39', 'sDesc': '首次亮相就爆猛料、送豪礼，“X”策划喊你进来看直播', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900&height=383', 'sIdxTime': '2019-12-18 17:09:39', 'sRedirectURL': '', 'sTagIds': '', 'sTargetIdxTime': '2019-12-18 17:32:27', 'sTitle': '看直播赢永久套装 | 神秘策划首度亮相，永久套装、定制周边送不停', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '12610109575600460296', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9093604', 'iRecId': '66447', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1.7万', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [], 'sCoverMap': '{"One":{"W":1920,"H":1080,"S":347207,"Url":"//shp.qpic.cn/cfwebcap/0/def5bdd24de957d2df77ca4675dccae9/0/?width=1920&height=1080"}}', 'sCreated': '2019-12-18 13:12:49', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/def5bdd24de957d2df77ca4675dccae9/0/?width=1920&height=1080', 'sIdxTime': '2019-12-18 13:12:49', 'sRedirectURL': '', 'sTagIds': '19290', 'sTargetIdxTime': '2019-12-18 13:14:11', 'sTitle': '《激战寒冬》iOS版本苹果商店刷新延迟公告', 'sUrl': ''}], 'total': 221, 'totalpage': 23}, 'status': 0}
 {'data': '', 'from': 'go', 'msg': {'page': 1, 'pagesize': 10, 'result': [{'guid': '0', 'iBiz': '182', 'iDocID': '4548230867477269676', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9202827', 'iRecId': '67170', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '2934', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/27fb70cd2a0ea25c4473fad8191f85cc/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":36470,"Url":"//shp.qpic.cn/cfwebcap/0/27fb70cd2a0ea25c4473fad8191f85cc/0/?width=500&height=270"}}', 'sCreated': '2019-12-27 20:36:20', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/27fb70cd2a0ea25c4473fad8191f85cc/0/?width=500&height=270', 'sIdxTime': '2019-12-27 20:36:20', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-27 22:42:23', 'sTitle': '【斗鱼星专场】限定男子组合带你组队和平精英', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '1437066300513342996', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9115851', 'iRecId': '66621', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1.0万', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 3996, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4017, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4024, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":39248,"Url":"//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500&height=270"}}', 'sCreated': '2019-12-20 11:37:46', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/7036e3eea937a77fcee4a1f2c9a56935/0/?width=500&height=270', 'sIdxTime': '2019-12-20 11:37:46', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-20 11:38:37', 'sTitle': '极寒模式启动！演员母其弥雅组队花老湿，斗鱼星专场带你激战寒冬', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '6748782639188114257', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9096068', 'iRecId': '66480', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '6802', 'iType': '0', 'sAuthor': '小白裙', 'sCoverList': [{'size': '900*383', 'url': '//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900&height=383', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 3996, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4024, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":900,"H":383,"S":59273,"Url":"//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900&height=383"}}', 'sCreated': '2019-12-18 17:09:39', 'sDesc': '首次亮相就爆猛料、送豪礼，“X”策划喊你进来看直播', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/40dc4ef3f60d8ce48a677b2a077e0f71/0/?width=900&height=383', 'sIdxTime': '2019-12-18 17:09:39', 'sRedirectURL': '', 'sTagIds': '', 'sTargetIdxTime': '2019-12-18 17:32:27', 'sTitle': '看直播赢永久套装 | 神秘策划首度亮相，永久套装、定制周边送不停', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '7206811546785457187', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9091365', 'iRecId': '66468', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '2712', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/2882073643179ba89267e21f27b8077c/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":33436,"Url":"//shp.qpic.cn/cfwebcap/0/2882073643179ba89267e21f27b8077c/0/?width=500&height=270"}}', 'sCreated': '2019-12-18 15:28:16', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/2882073643179ba89267e21f27b8077c/0/?width=500&height=270', 'sIdxTime': '2019-12-18 15:28:16', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-18 15:28:43', 'sTitle': '【企鹅电竞】冰雪新版本上线，围观主播赢永久套装', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '6315271852595057666', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9094744', 'iRecId': '66467', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '397', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/6c1e8eca658eee250498a40cb873c1fb/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":33436,"Url":"//shp.qpic.cn/cfwebcap/0/6c1e8eca658eee250498a40cb873c1fb/0/?width=500&height=270"}}', 'sCreated': '2019-12-18 15:13:28', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/6c1e8eca658eee250498a40cb873c1fb/0/?width=500&height=270', 'sIdxTime': '2019-12-18 15:13:28', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-18 15:13:52', 'sTitle': '极寒模式，斗鱼主播带你激战寒冬', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '7527524620466772930', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9094964', 'iRecId': '66466', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1248', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/ccc2be83ccb9092c07e1c9f184b9aa5e/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":33436,"Url":"//shp.qpic.cn/cfwebcap/0/ccc2be83ccb9092c07e1c9f184b9aa5e/0/?width=500&height=270"}}', 'sCreated': '2019-12-18 15:09:39', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/ccc2be83ccb9092c07e1c9f184b9aa5e/0/?width=500&height=270', 'sIdxTime': '2019-12-18 15:09:39', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-18 15:10:11', 'sTitle': '圣诞节将至，和平精英激战寒冬版本来袭~', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '16008471619851257363', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9083074', 'iRecId': '66350', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '2.5万', 'iType': '0', 'sAuthor': '小白裙', 'sCoverList': [{'size': '499*311', 'url': '//shp.qpic.cn/cfwebcap/0/5fefc04dbfcd82e5965328fb10eec1f8/0/?width=499&height=311', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4024, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4474, 'imgType': ''}], 'sCoverMap': '{"One":{"W":499,"H":311,"S":38960,"Url":"//shp.qpic.cn/cfwebcap/0/5fefc04dbfcd82e5965328fb10eec1f8/0/?width=499&height=311"}}', 'sCreated': '2019-12-17 15:26:53', 'sDesc': '“X”策划首次登场！', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/5fefc04dbfcd82e5965328fb10eec1f8/0/?width=499&height=311', 'sIdxTime': '2019-12-17 15:26:53', 'sRedirectURL': '', 'sTagIds': '', 'sTargetIdxTime': '2019-12-17 15:36:46', 'sTitle': '看直播送双马尾？神秘主策划首次亮相，时刻准备嘴歪爆料！！', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '3484017854251210733', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9040973', 'iRecId': '66092', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1.3万', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/30992bf58ab00c1e0abfe3252df35d97/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4024, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":36713,"Url":"//shp.qpic.cn/cfwebcap/0/30992bf58ab00c1e0abfe3252df35d97/0/?width=500&height=270"}}', 'sCreated': '2019-12-13 17:13:28', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/30992bf58ab00c1e0abfe3252df35d97/0/?width=500&height=270', 'sIdxTime': '2019-12-13 17:13:28', 'sRedirectURL': '', 'sTagIds': '19291,19304', 'sTargetIdxTime': '2019-12-13 17:16:54', 'sTitle': '虎牙精英趴升级狙击大战，惊喜好礼送不停', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '17161366223113203392', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '9041854', 'iRecId': '66091', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '1907', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '500*270', 'url': '//shp.qpic.cn/cfwebcap/0/c066e732c683719fcb8f81003b7f52e7/0/?width=500&height=270', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4003, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4024, 'imgType': ''}, {'size': '0*0', 'url': '', 'type': 'reco', 'id': 4054, 'imgType': ''}], 'sCoverMap': '{"One":{"W":500,"H":270,"S":33345,"Url":"//shp.qpic.cn/cfwebcap/0/c066e732c683719fcb8f81003b7f52e7/0/?width=500&height=270"}}', 'sCreated': '2019-12-13 17:13:21', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/c066e732c683719fcb8f81003b7f52e7/0/?width=500&height=270', 'sIdxTime': '2019-12-13 17:13:21', 'sRedirectURL': '', 'sTagIds': '19291', 'sTargetIdxTime': '2019-12-13 17:15:57', 'sTitle': '斗鱼Rapper花重现江湖，谁是电竞歌神？ 葡萄不愤怒X Dy花老湿合作单曲来了', 'sUrl': ''}, {'guid': '0', 'iBiz': '182', 'iDocID': '6452565632872683690', 'iIsRedirect': '0', 'iMark': '0', 'iNewsId': '8992994', 'iRecId': '65675', 'iSubType': '0', 'iTime': '', 'iTop': '0', 'iTotalPlay': '9738', 'iType': '0', 'sAuthor': '和平精英 官方团队', 'sCoverList': [{'size': '1920*1080', 'url': '//shp.qpic.cn/cfwebcap/0/9ebf1f4441c06f08462fb9b172e1ab0c/0/?width=1920&height=1080', 'type': 'main', 'id': 1, 'imgType': 'jpeg'}], 'sCoverMap': '{"One":{"W":1920,"H":1080,"S":347207,"Url":"//shp.qpic.cn/cfwebcap/0/9ebf1f4441c06f08462fb9b172e1ab0c/0/?width=1920&height=1080"}}', 'sCreated': '2019-12-09 14:44:37', 'sDesc': '', 'sExt1': '', 'sExt2': '', 'sExt3': '', 'sIMG': '//shp.qpic.cn/cfwebcap/0/9ebf1f4441c06f08462fb9b172e1ab0c/0/?width=1920&height=1080', 'sIdxTime': '2019-12-09 14:44:37', 'sRedirectURL': '', 'sTagIds': '', 'sTargetIdxTime': '2019-12-09 14:44:50', 'sTitle': '腾讯视频VIP、永久时装和海量奖励触手可得，快来一起变身赛场女王！', 'sUrl': ''}], 'total': 87, 'totalpage': 9}, 'status': 0}
+<!doctype html>
+<html>
+
+<head>
+    
+
+
+<!--This is Git Project-->
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+    <title>阴阳师新闻资讯_活动_《阴阳师》手游官网_网易和风匠心巨制，开启唯美奇幻之旅</title>
+    <meta name="keywords" content="阴阳师下载,阴阳师官方下载,阴阳师安卓下载,阴阳师安卓官方下载,阴阳师手游,阴阳师礼包,阴阳师手游下载,阴阳师手游安卓, 阴阳师手游iOS,阴阳师手游苹果,阴阳师助手,网易手游,阴阳师手游 ios,阴阳师,阴阳师 ios,阴阳师手游ios,阴阳师手游安卓,阴阳师安卓,阴阳师 安卓,阴阳师ios,阴阳师 礼包,阴阳师礼包,阴阳师手游 安卓,阴阳师手游 礼包,阴阳师苹果,阴阳师攻略" />
+    <meta name="description" content="网易2016自研精品，唯美空灵的和风写意，经典的半即时回合制RPG，卡牌收集、养成，基于LBS地理技术的社交PK，上百种式神亟待觉醒..." />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc">
+    <link rel="dns-prefetch" href="https://nie.res.netease.com">
+    <link rel="canonical" href="//yys.163.com/"/>
+    <!--[if lt IE 9]>
+    <script src="https://nie.res.netease.com/comm/html5/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="https://nie.res.netease.com/comm/js/nie/util/alertBox/css/alertBox.css">
+    <link type="text/css" rel="stylesheet" href="https://yys.res.netease.com/pc/gw/20160929201016/pkg/inpage_489a9a8.css">
+
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <div style="position:absolute;left:0;top:0;width:100%;height:50px;background:rgb(255,255,233);color:rgb(30,84,148);border-bottom:1px solid rgb(230,230,198);text-align:center;line-height:50px;font-size:12px;">您使用的浏览器版本过低，可能会影响到您浏览本网页，建议您升级您的浏览器。</div>
+    <![endif]-->
+    <!--此乃头部-->
+    <div id="NIE-topBar"></div>
+    <div id="share" style="display:none">
+    <div id="share_title">您收到一封来自阴阳寮的手信</div>
+    <div id="share_url"></div>
+    <img id="share_pic" src="https://yys.res.netease.com/pc/gw/20160929201016/img/share_1209643.jpg" data-src="https://yys.res.netease.com/pc/gw/20160929201016/img/share_1209643.jpg">
+    <div id="share_desc">魑魅魍魉，和风写意，以阴阳师之名行走于人鬼两界之间......来吧，与我们一同踏上这段唯美和风奇幻之旅。</div>
+</div>
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+    <div class="wrap">
+        <div id="top_bar">
+	<div class="left_part">
+		<p class="download_txt">扫码下载</p>
+		<img src="https://adl.netease.com/d/g/yys/c/gw/qr">
+		<a class="logo_wrap" href="//yys.163.com/index.html" target="_blank">
+			<span class="logo_icon"></span>
+			<div class="game_name">
+				<h3>阴阳师</h3>
+				<p>网易和风匠心巨制</p>
+			</div>
+		</a>
+	</div>
+	<ul class="topnav_list">
+		<li class="topnav_li"><a class="nav_item" href="//yys.163.com/index.html" target="_blank">官网首页</a><span class="line"></span></li>
+		<li class="topnav_li"><a class="nav_item" href="//yys.163.com/news/index.html" target="_blank">新闻资讯</a><span class="line"></span></li>
+		<li class="topnav_li xxhd hide"><a class="nav_item" href="//yys.163.com/news/huodong/index.html" target="_blank">线下活动</a><span class="line"></span></li>
+		<li class="topnav_li"><a class="nav_item" href="//yys.163.com/skill/index.html" target="_blank">游戏攻略</a><span class="line"></span></li>
+		<li class="topnav_li ssl hide"><a class="nav_item" href="//yys.163.com/shishen/index.html" target="_blank">式神录</a><span class="line"></span></li>
+		<li class="topnav_li zjl hide"><a class="nav_item" href="//yys.163.com/zj/index.html" target="_blank">主角录</a><span class="line"></span></li>
+		<!-- <li class="topnav_li"><a class="nav_item" href="//yys.163.com/ts/index.html" target="_blank">游戏特色</a><span class="line"></span></li> -->
+		<li class="topnav_li"><a href="//tuku.yys.163.com/s/index.html" target="_blank" class="nav_item">同人社区<em class="arrow"></em></a><span class="line"></span></li>
+		<!-- <li class="topnav_li xxhd hide"><a class="nav_item" href="//yys.163.com/index.html?location=fanyule" target="_blank">泛娱乐</a><span class="line"></span></li> -->
+		<li class="topnav_li"><a href="javascript:void(0);" class="nav_item" data-tab="qudao">官方渠道<em class="arrow"></em></a><span class="line"></span></li>
+		<li class="topnav_li"><a href="https://gift.163.com/index_yys.html" target="_blank" class="nav_item">周边商城</a><span class="line"></span></li>
+		<li class="topnav_li"><a href="//yys.cbg.163.com/" target="_blank" class="nav_item">藏宝阁</a><span class="line"></span></li>
+		<li class="topnav_li"><a href="https://ds.163.com/webapp/share/users/5b00c224c7de46d98d33a6e0722ce28f/details/5b4f01f112b80d121bf3fcee" target="_blank" class="nav_item">网易大神</a></li>		
+	</ul>
+	<div class="topbar_more">
+		<div class="topbar_more_list clearfix tongren " data-tab="tongren">
+			 <!--<a href="//tuku.yys.163.com/s/channel.html?id=57cfb15f8617ef3c7f166c4c" class="list_item" target="_blank">
+				<span class="inner_item">
+					<span class="pic gaoshou"></span>
+					<span class="name">高手在民间</span>
+				</span>
+			</a> -->
+			
+			<!-- <a href="#" class="list_item" target="_blank">
+				<span class="inner_item">
+					<span class="pic video"></span>
+					<span class="name">同人视频</span>
+				</span>
+			</a> -->
+			<!--<a href="//tuku.yys.163.com/s/channel.html?id=57cd51f44836e916b7aed893" class="list_item" target="_blank">
+				<span class="inner_item">
+					<span class="pic xiaoshuo"></span>
+					<span class="name">同人小说</span>
+				</span>
+			</a>			-->
+			<a href="//tuku.yys.163.com/s/channel.html?id=57cd51f44836e916b7aed893" class="list_item" target="_blank">
+				<span class="inner_item">
+					<span class="pic cos"></span>
+					<span class="name">玩家COS</span>
+				</span>
+			</a>
+			<a href="//tuku.yys.163.com/s/channel.html?id=57cd514394ca6e78ea837ce0" class="list_item firstone" target="_blank">
+				<span class="inner_item">
+					<span class="pic huihua"></span>
+					<span class="name">同人绘画</span>
+				</span>
+			</a>
+			<!--<a href="//tuku.yys.163.com/s/channel.html?id=57cd514394ca6e78ea837ce0" class="list_item firstone" target="_blank">
+				<span class="inner_item">
+					<span class="pic jingxuan"></span>
+					<span class="name">精选推荐</span>
+				</span>
+			</a>			-->
+		</div>
+		<div class="topbar_more_list qudao" data-tab="qudao">
+			<div class="qq_team">
+				<ul class="clearfix">					
+					<li class="qq">204422345（1群）</li>
+					<li class="qq">586180977（6群）</li>
+					<li class="qq">540687051（2群）</li>
+					<li class="qq">477094979（7群）</li>
+					<li class="qq">546653739（3群）</li>
+					<li class="qq">239033695（8群）</li>
+					<li class="qq">546027375（4群）</li>
+					<li class="qq">478814406（9群）</li>
+					<li class="qq">344590267（5群）</li>
+					<li class="qq">478027123（10群）</li>	
+				</ul>
+				<p>官方QQ群</p>
+			</div>
+			<div class="topbar_codewrap">
+				<img src="https://yys.res.netease.com/pc/gw/20160929201016/img/wx_d99aea4.jpg">
+				<p class="p-tit">官方微信</p>
+				<p class="p-tit-on">网易阴阳师手游</p>
+			</div>
+			<a href="http://weibo.com/yys163" target="_blank" class="topbar_codewrap">
+				<img src="https://yys.res.netease.com/pc/gw/20160929201016/img/wb_2cdebbf.png">
+				<p class="p-tit">官方微博</p>
+				<p class="p-tit-on">网易阴阳师手游</p>
+			</a>
+			<a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E7%BD%91%E6%98%93%E9%98%B4%E9%98%B3%E5%B8%88" class="list_item" target="_blank">
+				<span class="inner_item">
+					<span class="pic baidu"></span>
+					<span class="name">百度贴吧</span>
+				</span>
+			</a>
+			<a href="http://yys.16163.com/" class="list_item firstone" target="_blank">
+				<span class="inner_item">
+					<span class="pic bbs"></span>
+					<span class="name">官方论坛</span>
+				</span>
+			</a>
+		</div>
+	</div>
+</div>
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+        <!-- 导航 -->
+        <div class="banner">
+	<a href="/index.html" target="_blank" class="logo">
+		<img src="https://webinput.nie.netease.com/img/yys/logo.png/100">
+	</a>
+</div>
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+        <div class="content">
+            <div class="newsWrap clearfix">
+                <div class="content-main">
+                    <h2 class="list_tit">新闻资讯</h2>
+                    <div class="list-nav huodong-nav">
+                        <a href="/news/index.html" class="all-tit"><em></em>最新</a>
+                        <a href="/news/official/index.html" class="news-tit"><em></em>新闻</a>
+                        <a href="/news/update/index.html" class="update-tit"><em></em>公告</a>
+                        <a href="/news/huodong/index.html" class="huodong-tit"><em></em>活动</a>
+                        <a href="/news/media/index.html" class="media-tit"><em></em>媒体</a>
+                        <a href="/skill/index.html" class="skill-tit"><em></em>攻略</a>
+                        <a href="/news/zhiliaopian/index.html" class="zhiliao-tit"><em></em>资料片</a>
+                    </div>
+                    <div class="news-list" id="Jlist">
+                        
+                        <!-- 新闻列表 -->
+
+                        <div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/m/2019/hot/?c=gw" target="_blank" title="我的海国战纪">
+                                    <p class="p-tit">12-30 我的海国战纪</p>
+                                    <p class="p-mess">我的海国战纪</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/m/2019/hot/?c=gw" target="_blank" title="2019年度热词">
+                                    <p class="p-tit">12-28 2019年度热词</p>
+                                    <p class="p-mess">2019年度热词</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/pingan/" target="_blank" title="平安有礼，吉运汇聚 ！《阴阳师》×平安银行联名信用卡跨世降临">
+                                    <p class="p-tit">12-09 平安有礼，吉运汇聚 ！《阴阳师》×平安银行联名信用卡跨世降临</p>
+                                    <p class="p-mess">平安有礼，吉运汇聚 ！《阴阳师》×平安银行联名信用卡跨世降临</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/rescue/" target="_blank" title="《阴阳师》流浪动物救助车">
+                                    <p class="p-tit">11-19 《阴阳师》流浪动物救助车</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/shzz/" target="_blank" title="鬼王觉醒：剧情体验站">
+                                    <p class="p-tit">10-23 鬼王觉醒：剧情体验站</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/map/" target="_blank" title="鬼船压境，硝烟四起，海国篇剧情更新！">
+                                    <p class="p-tit">10-16 鬼船压境，硝烟四起，海国篇剧情更新！</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/anniversary/" target="_blank" title="《阴阳师》三周年主题站">
+                                    <p class="p-tit">09-20 《阴阳师》三周年主题站</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/m/2019/3years/" target="_blank" title="《阴阳师》三周年时光机">
+                                    <p class="p-tit">09-20 《阴阳师》三周年时光机</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/graffiti/" target="_blank" title="为崽而战、盛夏之约：应援版开启">
+                                    <p class="p-tit">08-14 为崽而战、盛夏之约：应援版开启</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://campus.game.163.com/" target="_blank" title="网易游戏2020校园招聘火热进行中！">
+                                    <p class="p-tit">08-12 网易游戏2020校园招聘火热进行中！</p>
+                                    <p class="p-mess">网易游戏2020届校园招聘火热进行中，游戏设计师、游戏研发工程师、品牌管理培训生、游戏测试工程师众多岗位等你来投！https://campus.game.163.com/，更多校招信息可关注公众号“网易游戏互娱校园招聘”。</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/jd/" target="_blank" title="阴阳师X京东818手机节：每一部，都好玩">
+                                    <p class="p-tit">08-02 阴阳师X京东818手机节：每一部，都好玩</p>
+                                    <p class="p-mess">2019年8月2日至2019年8月20日，上京东APP搜索阴阳师，参与互动，即有可能获得头像框兑换码。</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/arakawa/" target="_blank" title="全新SP阶式神：骁浪荒川之主">
+                                    <p class="p-tit">07-22 全新SP阶式神：骁浪荒川之主</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/map/" target="_blank" title="阴阳师 海国篇年度超大型资料片">
+                                    <p class="p-tit">05-20 阴阳师 海国篇年度超大型资料片</p>
+                                    <p class="p-mess"></p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/2019/ritou/" target="_blank" title="离岛歌舞祭 即将开启">
+                                    <p class="p-tit">04-14 离岛歌舞祭 即将开启</p>
+                                    <p class="p-mess">绝代歌姬！全新SSR阶式神不知火降临平安京～</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="item">
+                            <div class="item-inner">
+                                <a class="link" href="https://yys.163.com/uranai/" target="_blank" title="樱花占卜">
+                                    <p class="p-tit">04-02 樱花占卜</p>
+                                    <p class="p-mess">神秘樱花占卜，透过落樱窥见你的灵魂</p>
+                                    <span class="category $cname">活动</span>
+                                    <span class="s-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <!--分页-->
+                        
+                        <div class="pager">
+                            <div class="pager-inner">
+
+                                <span class="pager-list">
+                                    <a href="javascript:void(0);" class="pager-list-first">1/6 <i></i></a>
+
+                                    <em>第1页</em><a href="//yys.163.com/news/huodong/index_2.html">
+                                        
+                                        <em>第2页</em>
+                                        
+                                    </a><a href="//yys.163.com/news/huodong/index_3.html">
+                                        
+                                        <em>第3页</em>
+                                        
+                                    </a><a href="//yys.163.com/news/huodong/index_4.html">
+                                        
+                                        <em>第4页</em>
+                                        
+                                    </a><a href="//yys.163.com/news/huodong/index_5.html">
+                                        
+                                        <em>第5页</em>
+                                        
+                                    </a>
+                                </span>
+
+                                
+
+                                
+                                <a href="//yys.163.com/news/huodong/index_2.html" class="next no-text">下一页</a>
+                                
+
+                            </div>
+                        </div>
+
+                        
+                        <div class="list-wyds">
+                            <a href="https://ds.163.com/webapp/share/users/5b00c224c7de46d98d33a6e0722ce28f/details/5b4f01f112b80d121bf3fcee" title="网易大神" target="_blank">
+                                <img src="https://test.nie.163.com/test_cdn/yys/pc/qt/20170321215909/img/inpage/wyds_48e246c.webp" alt="">
+                            </a>
+                            <p>　　网易大神是网易游戏旗下的精英玩家社区。这里汇聚了广大精英玩家、游戏圈红人、行业大咖，集合了网易独家的官方资讯和福利趣闻，旨在为玩家打造一个丰富的游戏兴趣社交圈。玩家可以在网易大神与游戏中的好友实时聊 
+                                        天、多元互动;以游戏会友，结交更多游戏同好，和大神一起发现更多游戏乐趣。</p>
+                            <p>　　官方网站：<a href="https://ds.163.com" target="_blank">https://ds.163.com</a></p>
+                            <p>　　官方微信：wyds_163</p>
+                            <p>　　官方微博：@网易大神 APP</p>
+                            <p>　　官方大神号：@网易大神</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 侧栏预约或下载模块 -->
+            <!-- 预约 -->
+<!-- <a id="Jorderbtn" class="sider-btn orderbtn" href="javascript:;"><span class="s-icon"></span>立即预约</a> -->
+<!-- 下载 -->
+<a id="Jdownloadbtn" class="sider-btn downloadbtn" href="javascript:void(0);"><span class="s-icon"><i></i></span>立即下载</a>
+<div class="sider" id="Jsider">
+    <a href="javascript:void(0);" class="btn-close"><i></i></a>
+    <div class="sider-main">
+        <div id="nie-download" class="nie-download" data-download="yys|gw">
+            <h3 class="aside_tit01">下载游戏</h3>
+            <div class="NIE-qrcode">
+                <div class="ewm-light"></div>
+            </div>
+            <p>扫一扫下载游戏</p>
+            <!-- <div class="buttons">
+                <a class="link-apple NIE-button-ios no-text" target="_blank">App Store下载</a>
+                <a class="link-android NIE-button-android no-text" target="_blank">安卓版下载</a>
+            </div> -->
+        </div>
+
+        <h3 class="aside_tit02">近期热点</h3>
+        <div id="hot-banner">
+            <div class="banner_box adbase-ctn">
+                             <a href="https://yys.163.com/m/2019/hot/?c=gw" title="我的海国战纪" class="banner_item" target="_blank">
+            <img src="https://nie.res.netease.com/r/pic/20191230/1a5555a9-8a6f-4eb8-bf6c-59369cced07d.png" alt="我的海国战纪">
+        </a>
+                 <a href="https://yys.163.com/m/2019/hot/?c=gw" title="2019年度热词" class="banner_item" target="_blank">
+            <img src="https://nie.res.netease.com/r/pic/20191230/f0b89622-aaa8-48e6-a09b-466219661f66.jpg" alt="2019年度热词">
+        </a>
+                 <a href="https://yys.163.com/2019/pingan/" title="平安有礼，吉运汇聚 ！《阴阳师》×平安银行联名信用卡跨世降临" class="banner_item" target="_blank">
+            <img src="https://nie.res.netease.com/r/pic/20191209/7c66ce98-4d41-45d0-b596-44c96ea9e056.png" alt="平安有礼，吉运汇聚 ！《阴阳师》×平安银行联名信用卡跨世降临">
+        </a>
+                 <a href="https://yys.163.com/2019/rescue/" title="《阴阳师》流浪动物救助车" class="banner_item" target="_blank">
+            <img src="https://nie.res.netease.com/r/pic/20191119/202ac830-08c3-4eec-abc3-583c17820ead.jpg" alt="《阴阳师》流浪动物救助车">
+        </a>
+                 <a href="https://yys.163.com/2019/shzz/" title="鬼王觉醒：剧情体验站" class="banner_item" target="_blank">
+            <img src="https://nie.res.netease.com/r/pic/20191023/c88f07da-f212-4c66-935d-3d505dd44b0c.png" alt="鬼王觉醒：剧情体验站">
+        </a>
+                 <a href="https://yys.163.com/2019/map/" title="鬼船压境，硝烟四起，海国篇剧情更新！" class="banner_item" target="_blank">
+            <img src="https://nie.res.netease.com/r/pic/20191016/a311bd6f-aeb6-4493-b343-954b1e778887.png" alt="鬼船压境，硝烟四起，海国篇剧情更新！">
+        </a>
+    <!--stamp:3479b91e-98da-43a2-b168-1f3454f4160d,tplId:21558,pageId:23543,tplName:阴阳师-内页侧边-栏近期热点-->
+            </div>
+            <div class="hd">
+                
+            </div>
+        </div>
+        <h3 class="aside_tit03">热门攻略</h3>
+        <div id="gonglue-box">
+        	<a class="right-more" href="//yys.163.com/skill/index.html" target="_blank"></a>
+            <ul>
+                <!-- <li>
+                    <a href=""><em></em>[新闻] 口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩</a>
+                    
+                </li>
+                <li>
+                    <a href=""><em></em>[新闻] 口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩</a>
+                    
+                </li>
+                <li>
+                    <a href=""><em></em>[新闻] 口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩</a>
+                    
+                </li>
+                <li>
+                    <a href=""><em></em>[新闻] 口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩口袋梦幻的四大玩法 随时都玩</a>
+                    
+                </li> -->
+                <li><a href="//yys.163.com/skill/shishen/20200103/23027_858473.html" title="新版大天狗征战鬼灵歌姬测评" target="_blank"><em></em>【式神】 新版大天狗征战鬼灵歌姬测评</a></li>
+<li><a href="//yys.163.com/skill/shishen/20200103/23027_858470.html" title="改版天狗PVE被动增强！没有茶几的小伙伴的福音" target="_blank"><em></em>【式神】 改版天狗PVE被动增强！没有茶几的小伙伴的福音</a></li>
+<li><a href="//yys.163.com/skill/huodong/20200103/23030_858469.html" title="妖刀竞速回归~鬼吞：听说你有反伤？不存在的~" target="_blank"><em></em>【玩法】 妖刀竞速回归~鬼吞：听说你有反伤？不存在的~</a></li>
+<li><a href="//yys.163.com/skill/huodong/20200103/23030_858468.html" title="云外镜 逢魔测评（胧车）" target="_blank"><em></em>【玩法】 云外镜 逢魔测评（胧车）</a></li>
+
+<!--stamp:f3fcdcfc-cfc8-490e-83be-09b03d8b3efc,tplId:15738,pageId:19576,tplName:16v3PC官网列表页-热门攻略-->
+            </ul>
+        </div>
+        <h3 class="aside_tit04">精选同人</h3>
+        <div id="tongren-banner">
+        	<a class="right-more" href="//yys.163.com/tongren/index.html" target="_blank"></a>
+            <ul class="banner_box">
+                <!-- <li>
+                    <a href="http://www.SuperSlide2.com" target="_blank"><img data-src="http://dummyimage.com/270x170/ddd/79c" title="标题"></a>
+                </li>
+                <li>
+                    <a href="http://www.SuperSlide2.com" target="_blank"><img data-src="http://dummyimage.com/270x170/aaa/79c" title="标题"></a>
+                </li>
+                <li>
+                    <a href="http://www.SuperSlide2.com" target="_blank"><img data-src="http://dummyimage.com/270x170/bbb/79c" title="标题"></a>
+                </li>
+                <li>
+                    <a href="http://www.SuperSlide2.com" target="_blank"><img data-src="http://dummyimage.com/270x170/ccc/79c" title="标题"></a>
+                </li> -->
+                <li><a href="https://yys.163.com/tongren/text.html?id=5e0e90fce515cf20797fec43&type=image" title="神器的使命【作者】阿天天天天天天-自升天咯" target="_blank"><img data-src="https://nie.res.netease.com/r/pic/20200103/dde805d8-284c-46b1-987a-1b023a5d1fe8.jpg"></a></li>
+<li><a href="https://yys.163.com/tongren/text.html?id=5e0e8f21db7442ac0f76d63d&type=image" title="镜生万象，因果自循【作者】正在加载中000" target="_blank"><img data-src="https://nie.res.netease.com/r/pic/20200103/539b7490-4ed7-4bd4-ace0-5d9d6c8872e9.jpg"></a></li>
+<li><a href="https://yys.163.com/tongren/text.html?id=5e0e8bb1bd039502f628996a&type=image" title="新年许愿【作者】CTR长歌" target="_blank"><img data-src="https://nie.res.netease.com/r/pic/20200103/21c2ca96-c453-4db0-80d0-3ce5d993ac55.jpg"></a></li>
+<li><a href="https://yys.163.com/tongren/text.html?id=5e0e8bf7becc375a8628995f&type=image" title="云外镜传记三【作者】YA的鼻涕泡" target="_blank"><img data-src="https://nie.res.netease.com/r/pic/20200103/2245441f-6bab-4c6a-9650-68f02b7bc1a4.jpg"></a></li>
+
+<!--stamp:5fab236f-5e47-4e3b-bc58-e7b88adff932,tplId:15739,pageId:19577,tplName:16v3PC官网列表页-精选同人-->
+            </ul>
+            <div class="hd">
+                
+            </div>
+        </div>
+        <h3 class="aside_tit05">官方媒体</h3>
+        <div id="media-box">
+            <ul class="media-tit clearfix">
+                <li class="weixin-tit cur">关注微信</li>
+                <li class="weibo-tit">关注微博</li>
+            </ul>
+            <ul class="media-wrap">
+                <li class="cur">
+                    <img src="https://yys.res.netease.com/pc/gw/20160929201016/img/inpage/weixin-code_d99aea4.jpg">
+                    <p>扫一扫关注微信</p>
+                </li>
+                <li>
+                    <img src="https://yys.res.netease.com/pc/gw/20160929201016/img/inpage/weibo-code_7c7587b.png">
+                    <p>扫一扫关注微博</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+        </div>
+    </div>
+    <div id="NIE-copyRight"></div>
+    <!-- jquery mix NIE (最新版本）-->
+    <script charset="utf-8" src="https://nie.res.netease.com/comm/js/jquery(mixNIE).1.11.js"></script>
+    <script type="text/javascript" src="https://nie.res.netease.com/comm/js/nie/ref/jquery.superslide.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://yys.res.netease.com/pc/gw/20160929201016/pkg/inpage_08ce4b0.js"></script>
+
+
+<!--This is Git Project From YYS/yys-gw-16v3-20160926(4091)-->
+    <script type="text/javascript">nie.config.copyRight.setWhite();</script>
+    <iframe id="js_yingxiao" src="https://gad.netease.com/mmad/point?point_id=12058&s=ISx7qMcTGU%2Bwe%2BJlECLMjhpYn%2F8%3D" pub-name="营销点代码" style="display:none"></iframe>
+</body>
+
+</html>
+<!--stamp:ac874dc9-989f-4bf2-b714-090c3d68ae8c,tplId:15734,pageId:19565,tplName:16v3PC官网列表页模板-->

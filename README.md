@@ -32,7 +32,7 @@
 - 斗罗大陆手游官网　新闻中心内容(包含活动、新闻、公告等 http://dl.qidian.com/index.php/home/dldl/newsList) 
 - 王者荣耀手游官网 包含新闻中心、公告、活动等内容(https://pvp.qq.com/web201706/newsindex.shtml)
 - 和平精英手游官网　包含公告、活动、信息等内容(https://gp.qq.com/web201908/list_news.html)
-- 
+- 阴阳师完全活动单个页面解析　翻页解析整个活动栏内容 (https://yys.163.com/news/huodong/index.html)
 - 
 - 
 - 
