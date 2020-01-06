@@ -7,8 +7,8 @@ from notice_spider.items import NoticeSpiderItem
 import redis
 
 
-class WangzherongyaoSpider(scrapy.Spider):
-    name = 'WangzherongyaoSpider'
+class HepingjingyingSpider(scrapy.Spider):
+    name = 'HepingjingyingSpider'
 
     def __init__(self, *args, **wkargs):
         super().__init__(**wkargs)
@@ -16,14 +16,14 @@ class WangzherongyaoSpider(scrapy.Spider):
         self.conn = redis.Redis(host='192.168.1.21', port=6379, db=8)
         self.headers = {
             'Host': 'apps.game.qq.com',
-            'Origin':'https://pvp.qq.com',
+            # 'Origin':'https://pvp.qq.com',
             'TE': 'Trailers',
             'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language':'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
             'Accept-Encoding': 'gzip, deflate',
             'Connection': 'keep-alive',
-            'Referer':'https://pvp.qq.com/web201706/newsindex.shtml'
+            'Referer':'https://gp.qq.com/web201908/list_news.html'
         }
         self.cache_kwargs = {}
 
@@ -32,25 +32,26 @@ class WangzherongyaoSpider(scrapy.Spider):
         #新闻　公告　活动　
         return [
                 # 活动入口
-                # scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=18&p1=searchNewsKeywordsList&order=sIdxTime&r0=cors&type=iTarget&source=app_news_search&pagesize=12&page=1&id=1763",
+                # scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page=1&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj6859980257066431&type=iTarget&id=4003&source=web_pc",
                 #                method='GET',
                 #                callback=self.parse_activity,
                 #                headers=self.headers),
                 # 公告入口
-                # scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=18&p1=searchNewsKeywordsList&order=sIdxTime&r0=cors&type=iTarget&source=app_news_search&pagesize=12&page=1&id=1762",
+                # scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page=1&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj560371549035622&type=iTarget&id=4001&source=web_pc",
                 #                method='GET',
                 #                callback=self.parse_notice,
                 #                headers=self.headers),
                 # 新闻入口
-                scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=18&p1=searchNewsKeywordsList&order=sIdxTime&r0=cors&type=iTarget&source=app_news_search&pagesize=12&page=1&id=1761",
+                scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page=1&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj6183387031111702&type=iTarget&id=4000&source=web_pc",
                                method='GET',
                                callback=self.parse_news,
                                headers=self.headers),
                ]
 
     def parse_activity(self, response):
-        res = json.loads(response.text)
-        activity_list = res.get('msg', {}).get('result', [])
+        json_data = self.get_json_data(response.text)
+
+        activity_list = json_data.get('msg', {}).get('result', [])
         for activity in activity_list:
             item = NoticeSpiderItem()
             item['notice_type'] = '活动开启'  # 公告类型
@@ -69,11 +70,11 @@ class WangzherongyaoSpider(scrapy.Spider):
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
             yield item
-        totalpage = res.get('msg', {}).get('totalpage', 1)
-        if self.page < totalpage:
+        total_page = json_data.get('msg', {}).get('totalpage', 1)
+        if self.page < total_page:
             print('当前第{}页'.format(self.page))
             self.page += 1
-            yield scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=18&p1=searchNewsKeywordsList&order=sIdxTime&r0=cors&type=iTarget&source=app_news_search&pagesize=12&page={}&id=1763".format(self.page),
+            yield scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page={}&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj6859980257066431&type=iTarget&id=4003&source=web_pc".format(self.page),
                                  method='GET',
                                  callback=self.parse_activity,
                                  headers=self.headers)
@@ -81,10 +82,8 @@ class WangzherongyaoSpider(scrapy.Spider):
             print('不存在下一页')
 
     def parse_news(self, response):
-        # with open('t.txt', 'a') as f:
-        #     f.write(response.text + '\n')
-        res = json.loads(response.text)
-        activity_list = res.get('msg', {}).get('result', [])
+        json_data = self.get_json_data(response.text)
+        activity_list = json_data.get('msg', {}).get('result', [])
         for activity in activity_list:
             item = NoticeSpiderItem()
             item['notice_type'] = '新闻'  # 公告类型
@@ -103,11 +102,11 @@ class WangzherongyaoSpider(scrapy.Spider):
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
             yield item
-        totalpage = res.get('msg', {}).get('totalpage', 1)
-        if self.page < totalpage:
+        total_page = json_data.get('msg', {}).get('totalpage', 1)
+        if self.page < total_page:
             print('当前第{}页'.format(self.page))
             self.page += 1
-            yield scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=18&p1=searchNewsKeywordsList&order=sIdxTime&r0=cors&type=iTarget&source=app_news_search&pagesize=12&page={}&id=1761".format(self.page),
+            yield scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page={}&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj6183387031111702&type=iTarget&id=4000&source=web_pc".format(self.page),
                                 method='GET',
                                 callback=self.parse_news,
                                 headers=self.headers)
@@ -115,10 +114,9 @@ class WangzherongyaoSpider(scrapy.Spider):
             print('不存在下一页')
 
     def parse_notice(self, response):
-        # with open('t.txt', 'a') as f:
-        #     f.write(response.text + '\n')
-        res = json.loads(response.text)
-        activity_list = res.get('msg', {}).get('result', [])
+        json_data = self.get_json_data(response.text)
+
+        activity_list = json_data.get('msg', {}).get('result', [])
         for activity in activity_list:
             item = NoticeSpiderItem()
             item['notice_type'] = '公告'  # 公告类型
@@ -137,11 +135,11 @@ class WangzherongyaoSpider(scrapy.Spider):
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
             yield item
-        totalpage = res.get('msg', {}).get('totalpage', 1)
-        if self.page < totalpage:
+        total_page = json_data.get('msg', {}).get('totalpage', 1)
+        if self.page < total_page:
             print('当前第{}页'.format(self.page))
             self.page += 1
-            yield scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=18&p1=searchNewsKeywordsList&order=sIdxTime&r0=cors&type=iTarget&source=app_news_search&pagesize=12&page={}&id=1762".format(self.page),
+            yield scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page={}&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj560371549035622&type=iTarget&id=4001&source=web_pc".format(self.page),
                                 method='GET',
                                 callback=self.parse_notice,
                                 headers=self.headers)
@@ -205,7 +203,7 @@ class WangzherongyaoSpider(scrapy.Spider):
         uncompleted_url = activity.get('sIMG', '')
         if uncompleted_url.startswith('http'):
             return uncompleted_url
-        if uncompleted_url.startswith('//'):
+        if uncompleted_url.startswith('//') :
             complete_url = 'http:' + uncompleted_url
             return complete_url
         return ''
@@ -218,7 +216,8 @@ class WangzherongyaoSpider(scrapy.Spider):
 
     def extract_notice_redirect_url(self, activity):
         news_id = activity.get('iNewsId', '')
-        redirect_url = 'https://pvp.qq.com/web201706/newsdetail.shtml?tid={}'.format(news_id)
+
+        redirect_url = 'https://gp.qq.com/web201908/detail_news.html?newsid={}'.format(news_id)
         self.cache_kwargs['url'] = redirect_url
         return redirect_url
 
@@ -240,4 +239,12 @@ class WangzherongyaoSpider(scrapy.Spider):
         pass
     def extract_notice_belong(self, li):
         pass
+
+    def get_json_data(self, res):
+        json_data_index = res.index('{"data')
+        # with open('t.txt', 'a') as f:
+        #     f.write(str(json_data) + '\n')
+        json_data = res[json_data_index:-1]
+        return json.loads(json_data)
+
 
