@@ -1,21 +1,19 @@
 # -*- coding: utf-8 -*-
 import hashlib
-import json
-import random
 import scrapy
 from notice_spider.items import NoticeSpiderItem
 import redis
 
-
-class YinyangshiSpider(scrapy.Spider):
-    name = 'YinyangshiSpider'
+#新笑傲江湖爬虫
+class XinxiaoaojianghuSpider(scrapy.Spider):
+    name = 'XinxiaoaojianghuSpider'
 
     def __init__(self, *args, **wkargs):
         super().__init__(**wkargs)
         self.page = 1
         self.conn = redis.Redis(host='192.168.1.21', port=6379, db=8)
         self.headers = {
-            'Host': 'yys.163.com',
+            'Host': 'xxa.wanmei.com',
             'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language':'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
@@ -30,28 +28,26 @@ class YinyangshiSpider(scrapy.Spider):
         #新闻　公告　活动　攻略四个栏目　攻略等数据分类不明确,暂时不做抓取
         return [
                 # 活动入口
-                # scrapy.Request("https://yys.163.com/news/huodong/index.html",
+                # scrapy.Request("https://sgz.ejoy.com/act/",
                 #                method='GET',
                 #                callback=self.parse_activity,
                 #                headers=self.headers),
                 # #新闻入口
-                # scrapy.Request("https://yys.163.com/news/official/index.html",
-                #                method='GET',
-                #                callback=self.parse_news,
-                #                headers=self.headers),
-                #公告入口
-                scrapy.Request("https://yys.163.com/news/update/index.html",
+                scrapy.Request("http://xxa.wanmei.com/m/news/gamenews/list.html",
                                method='GET',
-                               callback=self.parse_notice,
+                               callback=self.parse_news,
                                headers=self.headers),
+                #公告入口,但是路径却是huodong
+                # scrapy.Request("https://sgz.ejoy.com/huodong/",
+                #                method='GET',
+                #                callback=self.parse_notice,
+                #                headers=self.headers),
+
 
                ]
 
     def parse_activity(self, response):
-        # with open('t.txt', 'a') as f:
-        #     f.write(response.text + '\n')
-        # exit(1)
-        activity_li = response.xpath("(//div[@class='item-inner'])")
+        activity_li = response.xpath("(//li[@class='news-item'])")
         for li in activity_li:
             item = NoticeSpiderItem()
             item['notice_type'] = '活动开启'  # 公告类型
@@ -69,15 +65,11 @@ class YinyangshiSpider(scrapy.Spider):
             item['notice_timestamp'] = self.extract_notice_timestamp(li)  # 公告通知时间
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
-            # print(item)
             yield item
-        page_desc = response.xpath("//span[@class='pager-list']//a/text()").extract()[0].strip()
-        cur_page = page_desc.split('/')[0]
-        total_page = page_desc.split('/')[1]
-        if cur_page < total_page:
-            print('存在下一页,当前第{}页'.format(self.page))
+        if response.xpath("//li[contains(@class,'pagination-btn pagination-next')]//a[@href]").extract():
+            print("存在下一页")
             self.page += 1
-            yield scrapy.Request("https://yys.163.com/news/huodong/index_{}.html".format(self.page),
+            yield scrapy.Request("https://sgz.ejoy.com/act/index-{}.html".format(self.page),
                                  method='GET',
                                  callback=self.parse_activity,
                                  headers=self.headers)
@@ -85,7 +77,9 @@ class YinyangshiSpider(scrapy.Spider):
             print("不存在下一页")
 
     def parse_news(self, response):
-        news_li = response.xpath("(//div[@class='item-inner'])")
+        news_li = response.xpath("//div[@class='newul']//li")
+        print(news_li)
+        exit()
         for li in news_li:
             item = NoticeSpiderItem()
             item['notice_type'] = '新闻'  # 公告类型
@@ -104,23 +98,18 @@ class YinyangshiSpider(scrapy.Spider):
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
             yield item
-        page_desc = response.xpath("//span[@class='pager-list']//a/text()").extract()[0].strip()
-        cur_page = int(page_desc.split('/')[0])
-        total_page = int(page_desc.split('/')[1])
-        if cur_page < total_page:
-            print('存在下一页,当前第{}/{}页'.format(self.page, total_page))
+        if response.xpath("//li[contains(@class,'pagination-btn pagination-next')]//a[@href]").extract():
+            print("存在下一页")
             self.page += 1
-            yield scrapy.Request("https://yys.163.com/news/official/index_{}.html".format(self.page),
+            yield scrapy.Request("https://sgz.ejoy.com/news/index-{}.html".format(self.page),
                                  method='GET',
                                  callback=self.parse_news,
                                  headers=self.headers)
         else:
-
             print("不存在下一页")
 
-
     def parse_notice(self, response):
-        notice_li = response.xpath("(//div[@class='item-inner'])")
+        notice_li = response.xpath("(//li[@class='news-item'])")
         for li in notice_li:
             item = NoticeSpiderItem()
             item['notice_type'] = '公告'  # 公告类型
@@ -140,15 +129,15 @@ class YinyangshiSpider(scrapy.Spider):
             item['notice_belong'] = ''  # 所属
             # print(item)
             yield item
-        if '下一页' not in response.xpath('(//a[@disabled="disabled"])').xpath('string()').extract():
-            print('存在下一页,当前第{}页'.format(self.page))
+        if response.xpath("//li[contains(@class,'pagination-btn pagination-next')]//a[@href]").extract():
+            print("存在下一页")
             self.page += 1
-            yield scrapy.Request("https://yys.163.com/news/update/index_{}.html".format(self.page),
-                               method='GET',
-                               callback=self.parse_notice,
-                               headers=self.headers)
+            yield scrapy.Request("https://sgz.ejoy.com/huodong/index-{}.html".format(self.page),
+                                 method='GET',
+                                 callback=self.parse_notice,
+                                 headers=self.headers)
         else:
-            print('不存在下一页')
+            print("不存在下一页")
 
     def extract_notice_type(self, li):
         pass
@@ -157,7 +146,7 @@ class YinyangshiSpider(scrapy.Spider):
         pass
 
     def extract_notice_title(self, li):
-        title = li.xpath('a/p[1]/text()').extract()[0].strip()
+        title = li.xpath('div[2]/a/text()').extract()[0].strip()
         self.cache_kwargs['title'] = title
         return title
 
@@ -174,18 +163,15 @@ class YinyangshiSpider(scrapy.Spider):
         pass
 
     def extract_notice_content(self, li):
-        #同样的解析规则,在页面上都有数据，都是返回的content有的没有内容
-        try:
-            content = li.xpath('a/p[2]/text()').extract()[0].strip()
-            return content
-        except:
-            return ''
+        content = li.xpath('div[2]/p[1]/text()').extract()[0].strip()
+        return content
+
 
     def extract_notice_ext(self, li):
         pass
 
     def extract_notice_redirect_url(self, li):
-        url = li.xpath('a/@href').extract()[0]
+        url = li.xpath('div[2]/a/@href').extract()[0]
         if url.startswith('http'):
             self.cache_kwargs['url'] = url
             return url
@@ -194,11 +180,10 @@ class YinyangshiSpider(scrapy.Spider):
         return complete_url
 
     def extract_notice_timestamp(self, li):
-        try:
-            pub_time = self.cache_kwargs['title'][:5]
-            return pub_time
-        except:
-            return ''
+        month = li.xpath('div[1]/p[1]/text()').extract()[0].strip()
+        day = li.xpath('div[1]/p[2]/text()').extract()[0].strip()
+        return month + '-' + day
+
 
     def extract_notice_icon(self, li):
         pass

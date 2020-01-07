@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2089f7c9-209a-469b-9087-d6bd95b25864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notice_spider/spiders/sanguozhi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice_spider/spiders/xinxiaoaojianghu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_spider/spiders/yinyangshi.json" beforeDir="false" afterPath="$PROJECT_DIR$/notice_spider/spiders/yinyangshi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notice_spider/spiders/yinyangshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/notice_spider/spiders/yinyangshi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,10 +74,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2218" y="110" key="SettingsEditor/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578277296317" />
-    <state x="2484" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1578276125262">
+    <state x="2484" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1578362381673">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2484" y="334" key="com.intellij.ide.util.TipDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578276125262" />
+    <state x="2484" y="334" key="com.intellij.ide.util.TipDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578362381673" />
     <state x="2818" y="261" width="959" height="666" key="find.popup" timestamp="1578103312595">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
