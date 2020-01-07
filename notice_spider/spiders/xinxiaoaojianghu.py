@@ -21,6 +21,8 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
         }
+        self.crawled_url = set() #爬虫深度没有终点,即使是活动最后一个页面，也依然是链接的形式,需要将爬取的链接加入缓存中
+        self.crawled_url.add('list.html')
         self.cache_kwargs = {}
 
 
@@ -28,26 +30,26 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
         #新闻　公告　活动　攻略四个栏目　攻略等数据分类不明确,暂时不做抓取
         return [
                 # 活动入口
-                # scrapy.Request("https://sgz.ejoy.com/act/",
+                # scrapy.Request("http://xxa.wanmei.com/m/news/gameevent/list.html",
                 #                method='GET',
                 #                callback=self.parse_activity,
                 #                headers=self.headers),
                 # #新闻入口
-                scrapy.Request("http://xxa.wanmei.com/m/news/gamenews/list.html",
-                               method='GET',
-                               callback=self.parse_news,
-                               headers=self.headers),
-                #公告入口,但是路径却是huodong
-                # scrapy.Request("https://sgz.ejoy.com/huodong/",
+                # scrapy.Request("http://xxa.wanmei.com/m/news/gamenews/list.html",
                 #                method='GET',
-                #                callback=self.parse_notice,
+                #                callback=self.parse_news,
                 #                headers=self.headers),
+                #公告入口
+                scrapy.Request("http://xxa.wanmei.com/m/news/gamebroad/list.html",
+                               method='GET',
+                               callback=self.parse_notice,
+                               headers=self.headers),
 
 
                ]
 
     def parse_activity(self, response):
-        activity_li = response.xpath("(//li[@class='news-item'])")
+        activity_li = response.xpath("//div[@class='newul']//li")
         for li in activity_li:
             item = NoticeSpiderItem()
             item['notice_type'] = '活动开启'  # 公告类型
@@ -66,10 +68,13 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
             yield item
-        if response.xpath("//li[contains(@class,'pagination-btn pagination-next')]//a[@href]").extract():
+        if response.xpath("//a[@title='Next']/@href") and response.xpath("//a[@title='Next']/@href").extract()[0].strip() not in self.crawled_url:
             print("存在下一页")
+            print(response.xpath("//a[@title='Next']/@href").extract()[0].strip())
+            print(self.crawled_url)
             self.page += 1
-            yield scrapy.Request("https://sgz.ejoy.com/act/index-{}.html".format(self.page),
+            self.crawled_url.add('list{}.html'.format(self.page - 1))
+            yield scrapy.Request("http://xxa.wanmei.com/m/news/gameevent/list{}.html".format(self.page - 1),
                                  method='GET',
                                  callback=self.parse_activity,
                                  headers=self.headers)
@@ -78,8 +83,8 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
 
     def parse_news(self, response):
         news_li = response.xpath("//div[@class='newul']//li")
-        print(news_li)
-        exit()
+        # print(news_li)
+        # exit()
         for li in news_li:
             item = NoticeSpiderItem()
             item['notice_type'] = '新闻'  # 公告类型
@@ -98,10 +103,14 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
             item['notice_live_time'] = ''  # 公告持续时间
             item['notice_belong'] = ''  # 所属
             yield item
-        if response.xpath("//li[contains(@class,'pagination-btn pagination-next')]//a[@href]").extract():
+
+        if response.xpath("//a[@title='Next']/@href") and response.xpath("//a[@title='Next']/@href").extract()[0].strip() not in self.crawled_url:
             print("存在下一页")
+            print(response.xpath("//a[@title='Next']/@href").extract()[0].strip())
+            print(self.crawled_url)
             self.page += 1
-            yield scrapy.Request("https://sgz.ejoy.com/news/index-{}.html".format(self.page),
+            self.crawled_url.add('list{}.html'.format(self.page - 1))
+            yield scrapy.Request("http://xxa.wanmei.com/m/news/gamenews/list{}.html".format(self.page - 1),
                                  method='GET',
                                  callback=self.parse_news,
                                  headers=self.headers)
@@ -109,7 +118,7 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
             print("不存在下一页")
 
     def parse_notice(self, response):
-        notice_li = response.xpath("(//li[@class='news-item'])")
+        notice_li = response.xpath("//div[@class='newul']//li")
         for li in notice_li:
             item = NoticeSpiderItem()
             item['notice_type'] = '公告'  # 公告类型
@@ -129,10 +138,12 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
             item['notice_belong'] = ''  # 所属
             # print(item)
             yield item
-        if response.xpath("//li[contains(@class,'pagination-btn pagination-next')]//a[@href]").extract():
-            print("存在下一页")
+        if response.xpath("//a[@title='Next']/@href") and \
+                                                    response.xpath("//a[@title='Next']/@href").extract()[0].strip() \
+                                                    not in self.crawled_url:
             self.page += 1
-            yield scrapy.Request("https://sgz.ejoy.com/huodong/index-{}.html".format(self.page),
+            self.crawled_url.add('list{}.html'.format(self.page - 1))
+            yield scrapy.Request("http://xxa.wanmei.com/m/news/gamebroad/list{}.html".format(self.page - 1),
                                  method='GET',
                                  callback=self.parse_notice,
                                  headers=self.headers)
@@ -146,7 +157,7 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
         pass
 
     def extract_notice_title(self, li):
-        title = li.xpath('div[2]/a/text()').extract()[0].strip()
+        title = li.xpath('a/text()').extract()[0].strip()
         self.cache_kwargs['title'] = title
         return title
 
@@ -163,26 +174,25 @@ class XinxiaoaojianghuSpider(scrapy.Spider):
         pass
 
     def extract_notice_content(self, li):
-        content = li.xpath('div[2]/p[1]/text()').extract()[0].strip()
-        return content
+
+        return ''
 
 
     def extract_notice_ext(self, li):
         pass
 
     def extract_notice_redirect_url(self, li):
-        url = li.xpath('div[2]/a/@href').extract()[0]
-        if url.startswith('http'):
+        url = li.xpath('a/@href').extract()[0].strip()
+        if url.startswith('https'):
             self.cache_kwargs['url'] = url
             return url
-        complete_url = 'https:' + url
+        complete_url = 'http://' + self.headers.get('Host') + url
         self.cache_kwargs['url'] = complete_url
         return complete_url
 
     def extract_notice_timestamp(self, li):
-        month = li.xpath('div[1]/p[1]/text()').extract()[0].strip()
-        day = li.xpath('div[1]/p[2]/text()').extract()[0].strip()
-        return month + '-' + day
+        date = li.xpath('span/text()').extract()[0].strip()
+        return date
 
 
     def extract_notice_icon(self, li):
