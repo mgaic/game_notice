@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2089f7c9-209a-469b-9087-d6bd95b25864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notice_spider/spiders/shaoniansanguozhi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice_spider/spiders/quanlideyouxi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notice_spider/spiders/t.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notice_spider/spiders/t.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

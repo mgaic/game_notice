@@ -1,257 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<script type="text/javascript">
-	(function() {
-		var LowerCase = navigator.userAgent.toLowerCase();
-		if(!(LowerCase.indexOf('windows nt') === -1 && LowerCase.indexOf('macintosh') === -1)) {
-			var _host = location.host;
-			var _url = location.href.replace(new RegExp(_host+'/m'), _host);
-			location.href = _url;
-		}
-	})();
-</script>
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-<script type="text/javascript" src="//pic.youzu.com/hd/sg2/online/dist/m/js/px2rem.js"></script>
-<link rel="stylesheet" type="text/css" href="//pic.youzu.com/hd/sg2/online/dist/m/css/reset.yd.css?v=20191226">
-<link rel="stylesheet" type="text/css" href="//pic.youzu.com/hd/sg2/online/dist/m/css/index.css?v=20191226">
-<script type="text/javascript" src="//pic.youzu.com/common/jquery-1.8.3.min.js?v=20191226"></script>
-<script type="text/javascript" src="//pic.youzu.com/hd/sg2/online/dist/m/js/base64.min.js?v=20191226"></script>
+    <meta charset="gbk">
+    <meta name="robots" content="all">
+<meta name="author" content="Tencent-CP">
+<meta name="Copyright" content="Tencent">
+<meta itemprop="name" content="权力的游戏 凛冬将至手游官方网站-腾讯游戏" />
+<meta itemprop="description" content="HBO官方正版战争策略手游《权力的游戏 凛冬将至》" />
+<meta itemprop="image" content="//game.gtimg.cn/images/quanyou/web201905/logo.png" />
+<meta name="Description" content="HBO官方正版战争策略手游《权力的游戏 凛冬将至》">
+<meta name="Keywords" content="权力的游戏 凛冬将至,HBO正版授权,ip,正版,战争策略,SLG,权力的游戏,冰与火之歌,奇幻,冒险,列王的纷争,华纳">
+<link rel="shortcut icon" type="image/x-icon" href="//game.gtimg.cn/images/quanyou/web201905/favicon.ico">
+    <title>权力的游戏 凛冬将至手游官方网站-腾讯游戏</title>
+    <!-- 设计：因赛  | 重构：因赛 | 创建：2019-05-29 -->
+    <link rel="stylesheet" href="/web201905/css/comm.css">
+    <link rel="stylesheet" href="/web201905/css/inner.css">
     <script>
-        $(function () {
-
-            orientation();
-
-            // 横竖屏
-            function orientation () {
-                var updateOrientation = function(){
-                    var orientation = window.orientation;
-                    switch(parseInt(orientation)){
-                        case 90:
-                            orientation = 'landscape'; //这里是横屏
-                            $('.header').addClass('h');
-                            break;
-                        case -90:
-                            orientation = 'landscape'; //这里是横屏
-                            $('.header').addClass('h');
-                            break;
-                        default:
-                            orientation = 'portrait'; //这里是竖屏
-                            $('.header').removeClass('h');
-                            break;
-                    }
-                    //html根据不同的旋转状态，加上不同的class，横屏加上landscape，竖屏
-                    //加上portrait
-                };
-                // 每次旋转，调用这个事件。
-                window.addEventListener('orientationchange',updateOrientation,false);
-                // 事件的初始化
-                updateOrientation();
-            }
-
-        })
+        (function jump() {
+            if (/iPhone|iPad|iPod|Android/ig.test(navigator.userAgent)) {
+                self.location = '/m/m201905/main.shtml'
+            };
+        })();
+		var pageType,pageName;
+		if(location.href.indexOf("11767")>-1||location.href.indexOf("11920")>-1||location.href.indexOf("11918")>-1||location.href.indexOf("11919")>-1){
+			pageType = "newsList";
+			pageName = "新闻列表页";
+		}else if(location.href.indexOf("11770")>-1||location.href.indexOf("11771")>-1||location.href.indexOf("11772")>-1){
+			pageType = "strategysList";
+			pageName = "攻略列表页";
+		}else{
+			pageType = "list";
+			pageName = "列表页";
+		}
+        var setSite = { //设置网站属性
+            siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+            pageType: pageType, //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+            pageName: pageName, 
+            project:"base",
+            osact: "pc"
+        }
     </script>
-<title>少年三国志2手游新闻 - 少年三国志2官网</title>
-<meta name="keywords" content="少年三国志新闻,少年三国志,少年三国志2,少年三国志2手游,少年三国志预约,少年三国志2下载" />
-<meta name="description" content="旗舰级卡牌手游《少年三国志》正统续作——《少年三国志2》与全球亿万少年再起热血征程！正当少年，不负三国。三年积淀，只为塑造最正统的少年三国世界！游戏力邀知名画师加盟，打造极致画面，独创兵符合击玩法，突破你的阵容局限！少年三国志2官网为您提供最新的少年三国志2新闻资讯！" />
-<link rel="canonical" href="https://sg2.youzu.com/m/news.html" />
-<script>
-	// 百度监控
-	var _hmt = _hmt || [];
-	(function() {
-		var hm = document.createElement("script");
-		hm.src = "//hm.baidu.com/hm.js?f61970e1ce8b3758b866572e28e07fba"; // 不同的域名不一样
-		var s = document.getElementsByTagName("script")[0]; 
-		s.parentNode.insertBefore(hm, s);
-	})();
-	// 百度自动推送
-	(function(){
-	    var bp = document.createElement('script');
-	    var curProtocol = window.location.protocol.split(':')[0];
-	    if (curProtocol === 'https') {
-	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-	    }
-	    else {
-	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-	    }
-	    var s = document.getElementsByTagName("script")[0];
-	    s.parentNode.insertBefore(bp, s);
-	})();
-	// gamePrefix 游戏的前缀，locId 对应平台文档中数据打点官网编号，hd下的活动注意后缀，posId 打点标记
-	function pushState(gamePrefix, locId, posId) {
-		var custom = arguments[3] ? arguments[3] : "";
-		var eventType = arguments[4] ? arguments[4] : "click";
-		// 百度推送
-		_hmt.push(['_trackEvent', 'game', posId, gamePrefix + '_' + posId]);
-		// 平台推送
-		dp_data_push(locId, gamePrefix + '_' + posId, custom, eventType);
-	}
-</script>
-<script type="text/javascript" src="https://pstat.youzu.com/dp/script?v=20191226"></script>
 </head>
 <body>
-<div class="header">
-	<h1><a title="少年三国志2" href="https://sg2.youzu.com/m/index.html"><img src="https://oss.youzu.com/y_web/a36c1891-8750-4b00-bce5-b44a4b20e721_2019-11-18.png" alt="少年三国志2" title="少年三国志2"></a></h1>
-	<h2>少年三国志2</h2>
-	<h3>高福利卡牌王者续作</h3>
-	<a class="btn btn_1" onclick="pushState('sg2', 1049, 'm_top_and_download')" href="https://v3m.youzu.com/m.php?q=5dde4d262de918095466" style="display: none;background:url(//pic.youzu.com/hd/sg2/online/dist/m/images/download_top.png??v=20191226);background-size:cover;"></a>
-	<a class="btn btn_2" onclick="pushState('sg2', 1049, 'm_top_ios_download')" href="https://v3m.youzu.com/m.php?q=5dde4d262de918095466" style="background:url(//pic.youzu.com/hd/sg2/online/dist/m/images/download_top.png??v=20191226);background-size:cover;display: none;"></a>
+<div class="wrap" id="newsList">
+  <div class="header">
+    <ul class='header-nav'>
+        <li class="li1">
+            <a href="/web201905/main.shtml" target="_blank" onclick="PTTSendClick('btn','indexHome','官网首页')">
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text1.png" alt="" class='autoImg'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text1-on.png" alt="" class='autoImg on'>
+            </a>
+        </li>
+        <li class="li2">
+            <a href="/web201905/strategys-list.shtml?iType=11770&page=1" target="_blank" target="_blank" onclick="PTTSendClick('btn','indexGuide','新手指引')">
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text2.png" alt="" class='autoImg'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text2-on.png" alt="" class='autoImg on'>
+            </a>
+        </li>
+        <li class="li3">
+            <a href="//quanyou.qq.com/act/agile/225815/index.html" target="_blank" onclick="PTTSendClick('btn','indexCdk','CDK兑换')">
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text3.png" alt="" class='autoImg'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text3-on.png" alt="" class='autoImg on'>
+            </a>
+        </li>
+        <li class="li4">
+            <a href="/web201905/strategys-list.shtml?iType=11770&page=1" target="_blank" onclick="PTTSendClick('btn','indexStretagy','攻略介绍')">
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text4.png" alt="" class='autoImg'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text4-on.png" alt="" class='autoImg on'>
+            </a>
+        </li>
+        <li class="li5">
+            <a href="/web201905/videos-list.shtml" target="_blank" onclick="PTTSendClick('btn','indexVideo','视听语言')">
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text5.png" alt="" class='autoImg'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text5-on.png" alt="" class='autoImg on'>
+            </a>
+        </li>
+        <li class="li6">
+            <a href="javascript:;" onclick="PTTSendClick('btn','kfu','客服中心')">
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text6.png" alt="" class='autoImg'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/nav-text6-on.png" alt="" class='autoImg on'>
+                <img src="//game.gtimg.cn/images/quanyou/web201905/header-code.png" alt="" class="header-code">
+            </a>
+        </li>
+    </ul>
+    <img src="//game.gtimg.cn/images/quanyou/web201905/header-nav.png" alt="" class='autoImg img-header-bg'>
 </div>
-<script src="//pic.youzu.com/common/auth/youzuWeixin.js?v=20191226"></script>
-<link rel="stylesheet" href="//pic.youzu.com/sg2/yuyue/mob/css/wow-animate.css?201910151849">
-<script type="text/javascript">
-var u = navigator.userAgent;
- if(u.indexOf('Android') > -1 || u.indexOf('Adr') > -1 ){
-	$(".btn_1").show()
-}
-else {
-	$(".btn_2").show()
-}
-new youzuWeixin({
-	shareTitle: '《少年三国志2》手游官网-正当少年时，不负三国梦', // 分享标题
-	shareDesc: '高福利卡牌王者续作——《少年三国志2》与全球亿万少年再起热血征程！', // 分享描述
-	shareLink: "https://sg2.youzu.com/m/index.html", // 分享链接
-	shareImgUrl: 'https://oss.youzu.com/y_web/a36c1891-8750-4b00-bce5-b44a4b20e721_2019-11-18.png', // 分享图标
-	shareTimeTitle: '《少年三国志2》手游官网-正当少年时，不负三国梦', // 分享朋友圈标题
-	shareSuccessCallback: function() {}
-}).share();
+    <div class="kv-box"></div>
+    <div class="inner-title">
+        <h3>新闻资讯</h3>
+        <div class="addr-box detail-addr-box">
+            <a href="/web201905/main.shtml" class='toIndex' onclick="PTTSendClick('btn','toIndex','返回首页')">官网首页</a>
+        </div>
+    </div>
+    <div class="box-nav" id="listnav">
+        <a href="/gicp/news/616/2/11767/1.html" class="js-tab nav-btn nav-btn1 nav-news" onclick="PTTSendClick('btn','news-zx','最新')">最新</a>
+        <a href="/gicp/news/616/2/11920/1.html" class="js-tab nav-btn nav-btn2 nav-news" onclick="PTTSendClick('btn','news-xw','新闻')">新闻</a>
+        <a href="/gicp/news/616/2/11918/1.html" class="js-tab nav-btn nav-btn3 nav-news" onclick="PTTSendClick('btn','news-gg','公告')">公告</a>
+        <a href="/gicp/news/616/2/11919/1.html" class="js-tab nav-btn nav-btn4 nav-news" onclick="PTTSendClick('btn','news-hd','活动')">活动</a>
+		<a href="/gicp/news/616/2/11770/1.html" class="js-tab nav-btn nav-btn7 nav-gl" onclick="PTTSendClick('btn','strategys-cj','初级攻略')">初级攻略</a>
+        <a href="/gicp/news/616/2/11771/1.html" class="js-tab nav-btn nav-btn8 nav-gl" onclick="PTTSendClick('btn','strategys-zj','中级攻略')">中级攻略</a>
+        <a href="/gicp/news/616/2/11772/1.html" class="js-tab nav-btn nav-btn9 nav-gl" onclick="PTTSendClick('btn','strategys-gj','高级攻略')">高级攻略</a>
+    </div>
+    <div class="newsbox on">
+        <ul class="newsList">
+					<li class="animateclass">                
+				<a href="/gicp/news/613/9305853.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info9305853','新闻9305853')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">【微信24区】听轩阁：权游女神——“Aurora梦”专访</p>                    
+					<i class="news-time">01-07</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/9088057.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info9088057','新闻9088057')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">渡鸦来信：全新版本内容爆料</p>                    
+					<i class="news-time">12-17</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8841392.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8841392','新闻8841392')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">“我的成长只为助你一臂之力”——戰丶妖女落落专访</p>                    
+					<i class="news-time">11-26</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8691808.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8691808','新闻8691808')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">狂欢盛典开启！“权游幸运星”究竟花落谁家？</p>                    
+					<i class="news-time">11-11</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8619702.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8619702','新闻8619702')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">世间所有的相遇，都是久别重逢——“夜游骑丶可爱”专访</p>                    
+					<i class="news-time">11-05</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8577619.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8577619','新闻8577619')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">七国女王今日强势登场！全新洗礼玩法详细解析~</p>                    
+					<i class="news-time">11-02</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8552386.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8552386','新闻8552386')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">指挥官档案S级机密抢先曝光“瑟曦”属性爆炸</p>                    
+					<i class="news-time">10-30</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8399714.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8399714','新闻8399714')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">最强装备“浴火重生”即将问世 ，#书写权游#活动火热进行中！</p>                    
+					<i class="news-time">10-16</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8359583.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8359583','新闻8359583')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">极限枪vs极限骑 S级指挥官詹姆带你完爆骑兵</p>                    
+					<i class="news-time">10-12</i>                
+				</a>            
+			</li>
+					<li class="animateclass">                
+				<a href="/gicp/news/613/8359581.html?tag=" class="item-news" target="_blank" onclick="PTTSendClick('newslist','info8359581','新闻8359581')">                    
+					<img class="news-poster" src="//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png">                   
+					<p class="news-title">长夜之战首次活动小谈</p>                    
+					<i class="news-time">10-12</i>                
+				</a>            
+			</li>
+				</ul>
+        <div class="pager" >
+						<a href="/gicp/news/616/2/11920/2.html" class="btn-pagenext">下一页</a>				</div>
+    </div>
+</div>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<script src="//ossweb-img.qq.com/images/js/title.js"></script>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/eas/eas.js?v=20151229"></script>
+<script src="//gicp.qq.com/wmp/v5/static/js/gicprp.js"></script>
+<script>
+	//曝光
+	if(typeof(Gicprp.send) == 'function'){
+		Gicprp.send({
+			'action_type':'pop',
+			'iuName':'web_pc',
+			'contentId':'9305853|9088057|8841392|8691808|8619702|8577619|8552386|8399714|8359583|8359581',
+			'serviceType':'175',
+			'contentType':'news',
+			'url':'%2Fgicp%2Fnews%2F613%2F9305853.html|%2Fgicp%2Fnews%2F613%2F9088057.html|%2Fgicp%2Fnews%2F613%2F8841392.html|%2Fgicp%2Fnews%2F613%2F8691808.html|%2Fgicp%2Fnews%2F613%2F8619702.html|%2Fgicp%2Fnews%2F613%2F8577619.html|%2Fgicp%2Fnews%2F613%2F8552386.html|%2Fgicp%2Fnews%2F613%2F8399714.html|%2Fgicp%2Fnews%2F613%2F8359583.html|%2Fgicp%2Fnews%2F613%2F8359581.html'
+		});
+	}
+	//点击
+	function sendclick(id,type,url){
+		if(typeof(Gicprp.send) == 'function'){
+			Gicprp.send({
+				'action_type':'click',
+				'iuName':'web_pc',
+				'contentId':id,//此处传入被点击内容的内容id
+				'serviceType':'175',
+				'contentType':type,//此处传入被点击内容的内容类型 video 或者是news
+				'url':encodeURIComponent(url)
+			});
+		}
+	}
 </script>
-<div class="vbody">
-	<div id="news">
-		<div class="news-title">
-		</div>
-		<div class="news-tab">
-			<a href="/m/index.html" class="back"></a>
-			<div class="news-tab-list">
-				<a href="/m/allNews.html" >最新</a>
-				<a href="/m/news.html" class="active">新闻</a>
-				<a href="/m/active.html" >活动</a>
-				<a href="/m/notice.html" >公告</a>
-				<a href="/m/version.html" >专题</a>
-			</div>
-		</div>
-		<ul class="news-list">
-			
-			<li>
-				<a 
-				
-				href="/m/news/5154177.html"
-				
-				>
-					<p class="title">智行联动活动开启 《少年三国志2》伴你回家过年！</p>
-					<p class="des">春节将至，多少在外的少年，要踏上返乡过年的旅途。无数少年蹲守在12306，掐秒等待放票时间的到来，但票仓却一刷而尽！眼看着回家的机会越来越渺茫，有着高福利卡牌王者续作称号的《少年三国志2》怎能坐视不理！游戏现已正式携手智行APP送上新一波生活福利，助力热血少年踏上返乡路！</p>
-					<p class="time">2020-01-06</p>
-				</a>
-			</li>
-			
-			<li>
-				<a 
-				
-				href="/m/news/5154151.html"
-				
-				>
-					<p class="title">“少年吐槽秀”邀你来参加！《少年三国志2》全新版本今日上线</p>
-					<p class="des">那个男人，他来了！近日，《吐槽大会第三季》冠军——卡姆，助力《少年三国志2》全新版本上线！作为《少年三国志2》资深玩家，卡姆对游戏有独到的理解，从玩家角度出发，对《少年三国志2》进行了一番“卡姆式”辛辣点评和犀利吐槽。</p>
-					<p class="time">2019-12-31</p>
-				</a>
-			</li>
-			
-			<li>
-				<a 
-				
-				href="/m/news/5154081.html"
-				
-				>
-					<p class="title">硬核联盟力挺超明星 《少年三国志2》首周新增用户120万</p>
-					<p class="des">《少年三国志2》已于12月11日全平台上线，获得了硬核联盟8家智能手机厂商游戏商店的联合超S级资源，硬核联盟首周新增用户达120万。本次上线交出的漂亮答卷是硬核联盟强大的分发能力与精品化产品的共同双赢，表现优异无愧于超明星称号。</p>
-					<p class="time">2019-12-20</p>
-				</a>
-			</li>
-			
-			<li>
-				<a 
-				
-				href="/m/news/5154073.html"
-				
-				>
-					<p class="title">七日数据盘点出炉！少年们竟然吃了那么多颗体力丹？</p>
-					<p class="des">让我们一起来看看少年们全平台上线七日的历程吧！</p>
-					<p class="time">2019-12-19</p>
-				</a>
-			</li>
-			
-			<li>
-				<a 
-				
-				href="/m/news/5154034.html"
-				
-				>
-					<p class="title">《少年三国志2》首日述职报告</p>
-					<p class="des">在这里，《少年三国志2》运营团队向每一个前来体验我们游戏的少年说一声：谢谢！</p>
-					<p class="time">2019-12-12</p>
-				</a>
-			</li>
-			
-			<li>
-				<a 
-				
-				href="/m/news/5154022.html"
-				
-				>
-					<p class="title">陈赫&Angelababy狂送福利《少年三国志2》今日全平台上线</p>
-					<p class="des">游族网络自研并发行的高福利卡牌王者续作《少年三国志2》今日全平台正式上线，首席福利官陈赫携手人气明星Angelababy，共同为玩家开启“抖音刷脸拿万元现金”、“不花钱也能玩得爽”、“老友超级福利特权”等海量福利特权，点燃亿万少年的热血狂欢！</p>
-					<p class="time">2019-12-11</p>
-				</a>
-			</li>
-			
-		</ul>
-		<a class="news-more"></a>
-	</div>
-	<script charset="utf-8" id="_FOOTER_" backcolor="#222429" linkcolor="#a4a4a4" maincolor="#5c5c5c" ybz="出版物号：ISBN 978-7-498-06963-4" csh="国新出审[2019]3189号" tagurl="http://www.youzu.com" src="//pic.youzu.com/common/before_js/footer.yd750.js?v=20190107"></script>
-</div>
-<script type="text/javascript">
-	var needing = false,
-		total = 65,
-		limit = 6,
-		count = Math.ceil(total/limit),
-		now   = 1,
-		newsMore = $(".news-more");
-		if(count <= 1) {
-			newsMore.hide();
-		}
-		function loadNews() {
-			if(now >= count || needing) {
-				return false;
-			}
-			now++;
-			needing = true;
-			$.ajax({
-				url: '/m/news/page/'+now+'.html',
-				type: 'get',
-				dataType: 'html',
-				success: function(res) {
-					needing = false;
-					var _list = $(res).find(".news-list").html();
-					$(".news-list").append(_list);
-					if(now >= count) {
-						newsMore.hide();
-					}
-				},
-				error: function() {
-					needing = false;
-				}
-			})
-		}
-		newsMore.click(function() {
-			loadNews();
-		})
+<script>
 
-	var offTop = $(".news-title").outerHeight();
-	$(window).scroll(function() {
-		var t = $(this).scrollTop();
-		t > offTop ? $(".news-tab").addClass('fixed') : $(".news-tab").removeClass('fixed');
-	})
+	
+	//新闻资讯选项卡状态切换
+	(function(){
+		var catNavi = document.getElementById("listnav").getElementsByTagName("a");
+		var pageUrl = location.href.split("1.")[0];
+		for(var i=0;i<catNavi.length;i++){
+			var navUrl = catNavi[i].getAttribute("href").split("1.")[0];
+			if(pageUrl.indexOf(navUrl)>=0){
+				catNavi[i].className=catNavi[i].className+" on";
+			}
+		}
+	})();
+	function setLink(tag){
+		var alink = $('.item-news'),i,len = alink.length;
+		for(i=0;i<len;i++){
+			$(alink[i]).attr('href',alink[i]+tag);
+		}
+	}
+	
+	if(location.href.indexOf("11767")>-1||location.href.indexOf("11920")>-1||location.href.indexOf("11918")>-1||location.href.indexOf("11919")>-1){
+		$('.nav-news').show();
+		$('.nav-gl').hide();
+		setLink('news');
+	}else if(location.href.indexOf("11770")>-1||location.href.indexOf("11771")>-1||location.href.indexOf("11772")>-1){
+		$('.nav-news').hide();
+		$('.nav-gl').show();
+		$('.inner-title h3').addClass('strategy-title');
+		setLink('gl');
+	}else{
+		$('.nav-news').show();
+		$('.nav-gl').hide();
+		setLink('news');
+	}	
+
+	if(location.href.indexOf("11767")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover0.png");
+	}
+	if(location.href.indexOf("11920")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover1.png");
+	}
+	if(location.href.indexOf("11918")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover2.png");
+	}
+	if(location.href.indexOf("11919")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover3.png");
+	}
+	if(location.href.indexOf("11770")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover4.png");
+	}
+	if(location.href.indexOf("11771")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover5.png");
+	}
+	if(location.href.indexOf("11772")>-1){
+		$('.news-poster').attr("src","//game.gtimg.cn/images/quanyou/web201905/inner/img-cover6.png");
+	}
+	
 </script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>if (typeof(pgvMain) == 'function') pgvMain();</script>
 </body>
 </html>
