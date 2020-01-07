@@ -68,7 +68,7 @@ RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 408, 407]
 DOWNLOADER_MIDDLEWARES = {
    # 'notice_spider.middlewares.NoticeSpiderDownloaderMiddleware': 543,
    # 'notice_spider.middlewares.ProxyMiddleware' : 205,
-   'notice_spider.middlewares.RandomUserAgentMiddleware' : 1,
+   # 'notice_spider.middlewares.RandomUserAgentMiddleware' : 1,
    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 
 
