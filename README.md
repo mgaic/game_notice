@@ -37,7 +37,7 @@
 - 三国志战略版 活动、公告、新闻栏数据 (https://sgz.ejoy.com/act/)
 - 新笑傲江湖　活动、公告、新闻栏 (http://xxa.wanmei.com/news/gameevent/list.html)
 - 少年三国志　活动、公告、新闻栏　(http://sg2.youzu.com/m/news.html)(ajax加载的完整网页)
-- 
+- 权利的游戏　活动、公告、新闻栏目(https://quanyou.qq.com/gicp/news/616/2/11918/1.html)
 - 
 
 ### 爬取过程
