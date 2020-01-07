@@ -36,6 +36,10 @@
 - 阴阳师全活动、公告、新闻栏解析完成
 - 三国志战略版 活动、公告、新闻栏数据 (https://sgz.ejoy.com/act/)
 - 新笑傲江湖　活动、公告、新闻栏 (http://xxa.wanmei.com/news/gameevent/list.html)
+- 少年三国志　活动、公告、新闻栏　(http://sg2.youzu.com/m/news.html)(ajax加载的完整网页)
+- 
+- 
 
-
+### 爬取过程
+-　踩坑，服务端返回的数据还是要好好看.
 ### End
