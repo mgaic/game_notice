@@ -34,8 +34,8 @@
 - 和平精英手游官网　包含公告、活动、信息等内容(https://gp.qq.com/web201908/list_news.html)
 - 阴阳师完全活动单个页面解析　下一步解析整个活动栏内容 (https://yys.163.com/news/huodong/index.html)
 - 阴阳师全活动、公告、新闻栏解析完成
-- 三国志战略版 活动、公告、新闻栏数据
-- 
+- 三国志战略版 活动、公告、新闻栏数据 (https://sgz.ejoy.com/act/)
+- 新笑傲江湖　活动、公告、新闻栏 (http://xxa.wanmei.com/news/gameevent/list.html)
 
 
 ### End
