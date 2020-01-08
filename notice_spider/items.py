@@ -26,3 +26,8 @@ class NoticeSpiderItem(scrapy.Item):
     notice_timestamp = scrapy.Field()    #公告通知时间
     notice_live_time = scrapy.Field()       #公告持续时间
     notice_belong = scrapy.Field()     #所属服
+
+class RentSpiderItem(scrapy.Item):
+    house_type = scrapy.Field()     # 房屋类型　
+    personal_name = scrapy.Field()  # 个人姓名
+    tel_phone = scrapy.Field()      # 联系方式
