@@ -39,6 +39,8 @@
 - 少年三国志　活动、公告、新闻栏　(http://sg2.youzu.com/m/news.html)(ajax加载的完整网页)
 - 权利的游戏　活动、公告、新闻栏目(https://quanyou.qq.com/gicp/news/616/2/11918/1.html)
 - 明日方舟   活动、公告、新闻栏数据采集　(https://ak.hypergryph.com/news.html)
+- 梦幻西游三维版　媒体、新服、活动、公告、新闻等栏目数据(https://xy3d.163.com/news/update/)
+- 
 
 
 ### 爬取过程
