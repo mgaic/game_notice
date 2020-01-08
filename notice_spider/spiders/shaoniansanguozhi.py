@@ -9,6 +9,7 @@ import redis
 from lxml import etree
 from scrapy.selector import Selector
 
+#少年三国志爬虫
 class ShaoniansanguozhiSpider(scrapy.Spider):
     name = 'ShaoniansanguozhiSpider'
 

@@ -6,7 +6,7 @@ import scrapy
 from notice_spider.items import NoticeSpiderItem
 import redis
 
-
+#斗罗大陆爬虫
 class DouluodaluSpider(scrapy.Spider):
     name = 'DouluodaluSpider'
 

@@ -2,6 +2,8 @@
 import scrapy
 from urllib.parse import urlencode
 import json
+
+#刺客行动爬虫
 class CikexingdongSpider(scrapy.Spider):
     name = 'cikexingdongSpider'
     allowed_domains = ["https://auction.unityads.unity3d.com"]
