@@ -41,8 +41,8 @@
 - 明日方舟   活动、公告、新闻栏数据采集　(https://ak.hypergryph.com/news.html)
 - 梦幻西游三维版　媒体、新服、活动、公告、新闻等栏目数据(https://xy3d.163.com/news/update/)
 - 率土之滨 公告栏、新闻栏　(http://stzb.163.com/news/)
-- 
-
+- 大话西游　已完成专题中心　(https://dhxy.163.com/news/rmzt.html)
+- 大话西游　专题中心、活动新闻、官方新闻　(https://dhxy.163.com/news/)
 
 ### 爬取过程
 -　踩坑，服务端返回的数据还是要好好看.
