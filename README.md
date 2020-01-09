@@ -43,6 +43,9 @@
 - 率土之滨 公告栏、新闻栏　(http://stzb.163.com/news/)
 - 大话西游　已完成专题中心　(https://dhxy.163.com/news/rmzt.html)
 - 大话西游　专题中心、活动新闻、官方新闻　(https://dhxy.163.com/news/)
+- 火影忍者爬虫　新闻、活动、公告等数据 (https://hyrz.qq.com/webplat/info/news_version3/11946/23790/23792/23935/23936/m15040/list_1.shtml)
+-　
+-
 
 ### 爬取过程
 -　踩坑，服务端返回的数据还是要好好看.
