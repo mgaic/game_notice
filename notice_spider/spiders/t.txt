@@ -1,1 +1,228 @@
-{"data":"","from":"go","msg":{"page":1,"pagesize":10,"result":[{"guid":"0","iBiz":"65","iDocID":"17954259031286964601","iIsRedirect":"0","iMark":"0","iNewsId":"9330300","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"1","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":750,\"H\":422,\"S\":46914,\"Url\":\"//shp.qpic.cn/cfwebcap/0/4b7c92ceb49aadfaa6b82ff4852abff6/0/?width=750\u0026height=422\"}}","sCreated":"2020-01-09 13:24:08","sDesc":"荣耀史册记录玩家传奇，三大篇章书写乱世史诗","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/4b7c92ceb49aadfaa6b82ff4852abff6/0/?width=750\u0026height=422","sIdxTime":"2020-01-09 13:24:08","sRedirectURL":"","sTagIds":"4739,6335,11431,12835","sTitle":"荣耀史册记录玩家传奇，三大篇章书写乱世史诗！","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"368186802181585557","iIsRedirect":"0","iMark":"0","iNewsId":"9295089","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"17","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":13660,\"Url\":\"//shp.qpic.cn/cfwebcap/0/08373fffe725fb39f43ed4cad27b0ded/0/?width=283\u0026height=163\"}}","sCreated":"2020-01-09 11:46:57","sDesc":"壁立千仞生豪气，把酒东风论英雄","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/08373fffe725fb39f43ed4cad27b0ded/0/?width=283\u0026height=163","sIdxTime":"2020-01-09 11:46:57","sRedirectURL":"","sTagIds":"4739,6335,17819,11431,12835","sTitle":"荣耀史册·本纪篇 豪、东风41-恶：壁立千仞生豪气，把酒东风论英雄","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"2536641167912095368","iIsRedirect":"0","iMark":"0","iNewsId":"9295099","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"184","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":13660,\"Url\":\"//shp.qpic.cn/cfwebcap/0/5285575c6a4ab9cf2a6b891f80a8efd5/0/?width=283\u0026height=163\"}}","sCreated":"2020-01-05 18:00:40","sDesc":"情义无双瞰全局，宏图万里展鸿鹄","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/5285575c6a4ab9cf2a6b891f80a8efd5/0/?width=283\u0026height=163","sIdxTime":"2020-01-05 18:00:40","sRedirectURL":"","sTagIds":"4739,6335,17819,12835,11431","sTitle":"荣耀史册·本纪篇 非常周末：情义无双瞰全局，宏图万里展鸿鹄","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"14138730362199197027","iIsRedirect":"0","iMark":"0","iNewsId":"9295101","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"30","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":13660,\"Url\":\"//shp.qpic.cn/cfwebcap/0/f4ba5625ca16814752326aa4a78aa912/0/?width=283\u0026height=163\"}}","sCreated":"2020-01-03 21:05:43","sDesc":"义字当头天下识，无悔无怨入乱世。","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/f4ba5625ca16814752326aa4a78aa912/0/?width=283\u0026height=163","sIdxTime":"2020-01-03 21:05:43","sRedirectURL":"","sTagIds":"4739,6335,11431,12835","sTitle":"荣耀史册·本纪篇 DK超超：义字当头天下识，无悔无怨入乱世","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"10499830817710881543","iIsRedirect":"0","iMark":"0","iNewsId":"9295096","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"45","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":13660,\"Url\":\"//shp.qpic.cn/cfwebcap/0/b9bbd7cdac551ab04067e2c836aa1c49/0/?width=283\u0026height=163\"}}","sCreated":"2019-12-31 20:30:53","sDesc":"单骑杀敌枪破阵 天下谁敢与争锋？","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/b9bbd7cdac551ab04067e2c836aa1c49/0/?width=283\u0026height=163","sIdxTime":"2019-12-31 20:30:53","sRedirectURL":"","sTagIds":"4739,6335,11431,12835","sTitle":"荣耀史册·本纪篇 电动小鱼丸：单骑杀敌枪破阵 天下谁敢与争锋？","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"3692450859383701711","iIsRedirect":"0","iMark":"0","iNewsId":"9311259","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"160","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":17927,\"Url\":\"//shp.qpic.cn/cfwebcap/0/b97d560076d1e0b2cdf86a0a6e11c80e/0/?width=283\u0026height=163\"}}","sCreated":"2019-12-31 20:20:43","sDesc":"S4赛季总冠军诞生","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/b97d560076d1e0b2cdf86a0a6e11c80e/0/?width=283\u0026height=163","sIdxTime":"2019-12-31 20:20:43","sRedirectURL":"","sTagIds":"4739,4706,12835,17905,17908","sTitle":"王者之师，一战功成！S4赛季总冠军诞生","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"14261578005853812931","iIsRedirect":"0","iMark":"0","iNewsId":"9311258","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"62","iType":"0","sAuthor":"乱世王者","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":16250,\"Url\":\"//shp.qpic.cn/cfwebcap/0/a571fcb9ac79c92c4426f5403ff5d394/0/?width=283\u0026height=163\"}}","sCreated":"2019-12-31 20:20:07","sDesc":"一张图带你了解S4赛季总冠军","sExt1":"3441,3340","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/a571fcb9ac79c92c4426f5403ff5d394/0/?width=283\u0026height=163","sIdxTime":"2019-12-31 20:20:07","sRedirectURL":"","sTagIds":"4739,4706,10168,12835,17905,17908","sTitle":"加冕夺冠！一张图带你了解S4赛季总冠军","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"15769158429705158200","iIsRedirect":"0","iMark":"0","iNewsId":"9238334","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"617","iType":"0","sAuthor":"乱世小蝉","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":15676,\"Url\":\"//shp.qpic.cn/cfwebcap/0/5707aabc4657925d08fe99e751e2b8d5/0/?width=283\u0026height=163\"}}","sCreated":"2019-12-31 11:58:46","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/5707aabc4657925d08fe99e751e2b8d5/0/?width=283\u0026height=163","sIdxTime":"2019-12-31 11:58:46","sRedirectURL":"","sTagIds":"4739,17819,12835","sTitle":"福利活动 | 喜迎新年！汤圆水饺大作战来啦~","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"7023811418874879581","iIsRedirect":"0","iMark":"0","iNewsId":"9220694","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"1109","iType":"0","sAuthor":"乱世小蝉","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":14800,\"Url\":\"//shp.qpic.cn/cfwebcap/0/217dc8dbbbaf887b06c5b807e3f4358c/0/?width=283\u0026height=163\"}}","sCreated":"2019-12-29 16:17:10","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/217dc8dbbbaf887b06c5b807e3f4358c/0/?width=283\u0026height=163","sIdxTime":"2019-12-29 16:17:10","sRedirectURL":"","sTagIds":"4739,4706,17819,10168,12835,17905,17908","sTitle":"看总决赛直播，赢ROG手机！","sUrl":""},{"guid":"0","iBiz":"65","iDocID":"4455584099650307745","iIsRedirect":"0","iMark":"0","iNewsId":"9218212","iSubType":"0","iTime":"","iTop":"","iTotalPlay":"349","iType":"0","sAuthor":"乱世王者官方运营团队","sCoverList":[],"sCoverMap":"{\"One\":{\"W\":283,\"H\":163,\"S\":14800,\"Url\":\"//shp.qpic.cn/cfwebcap/0/fa0acef1ec663098a9795e3955b0a7db/0/?width=283\u0026height=163\"}}","sCreated":"2019-12-29 12:01:44","sDesc":"","sExt1":"","sExt2":"","sExt3":"","sIMG":"//shp.qpic.cn/cfwebcap/0/fa0acef1ec663098a9795e3955b0a7db/0/?width=283\u0026height=163","sIdxTime":"2019-12-29 12:01:44","sRedirectURL":"","sTagIds":"4739,4706,17819,10168,12835,17905,17908","sTitle":"九鼎冠军联赛S4总决赛即将打响","sUrl":""}],"total":127,"totalpage":13},"status":0}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk" />
+	<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP">
+<meta name="Copyright" content="Tencent">
+<meta name="Description" content="《红警OL手游》是红警官方正版授权，现代战争策略手游！" />
+<meta name="Keywords" content="红警 红色警戒 RTS 战争策略 SLG 腾讯游戏 基诺夫 谭亚 竖版 COK  redalert" />
+<meta itemprop="name" content="正版红警，进化重燃！ - 红警OL手游" />
+<meta itemprop="image" content="//game.gtimg.cn/images/hongjing/m/m201809/share.png" />
+<meta itemprop="description" content="战争策略全新玩法，快来领取1288元礼包！" />
+	<title>红警快讯 - 红警OL手游 - 腾讯游戏</title>
+	<!-- 页面设计：微聚科技 | 页面制作：微聚科技 | 创建：2018-09-21 -->
+	<link rel="stylesheet" href="/web201809/css/common.css">
+	<link rel="stylesheet" href="/web201809/css/fix.css">
+	<link rel="stylesheet" href="/web201809/css/newslist.css">
+	<link rel="stylesheet" href="/web201809/css/kv.css">
+	<style>
+      body {padding-top: 42px;}
+    </style>
+</head>
+
+<body>
+<!--[if lt IE 8]><p class="browser-tips">您的浏览器版本过低，请升级浏览器获得更好的体验<p><![endif]-->
+	<div class="wrapBox" id="wrapBox">
+			<div class="wrap inpage-kv">
+					<!-- header -->
+					<div class="header">
+      <div class="header-main">
+        <h1>
+          <a target="_blank" onclick="PTTSendClick('header','index','首页');" href="/main.shtml">
+            <img class="logo" src="//game.gtimg.cn/images/hongjing/web201809/logo.png" alt="红警OL手游">
+            <img src="//game.gtimg.cn/images/hongjing/web201809/ea.png" alt="红警OL手游">
+          </a>
+        </h1>
+        <span class="icon"></span>
+        <ul class="clear fr">
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','home','官网首页');" href="/main.shtml">
+              <strong>官网首页</strong>
+              <em>HOME</em>
+              <span></span>
+            </a>
+          </li>
+           <li>
+            <a target="_blank" onclick="PTTSendClick('header','world','世界观');" href="//hongjing.qq.com/cp/a20191014sjg/index.html">
+              <strong>红警世界观</strong>
+              <em>WORLD</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','gamenews','游戏资讯');" href="/web201809/newslist.html">
+              <strong>游戏资讯</strong>
+              <em>GAME NEWS</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','strategy','攻略中心');" href="/web201809/strategy-station.html?dataid=7020">
+              <strong>攻略中心</strong>
+              <em>STRATEGY</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','gamedata','资料图鉴');" href="/web201809/heros.html">
+              <strong>资料图鉴</strong>
+              <em>GAME DATAS</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','playersworld','玩家天地');" href="/web201809/playerlist.html?dataid=7025">
+              <strong>玩家天地 </strong>
+              <em>PLAYERS' WORLD</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','playersworld','玩家天地');" href="//doujin.qq.com/#/content/contribute/fa6153abaaa705d6">
+              <strong>我要投稿 </strong>
+              <em>CONTRIBUTION</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','cdkey','CD-Key兑换');" href="/act/agile/143717/index.html">
+              <strong>CD-Key兑换 </strong>
+              <em>CDKEY</em>
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" onclick="PTTSendClick('header','cdkey','CD-Key兑换');" href="//kf.qq.com">
+              <strong>联系客服</strong>
+              <em>CONTACT</em>
+              <span></span>
+            	<img src="//game.gtimg.cn/images/hongjing/web201809/img-ewm.png" class="img-ewm" style="width:157px;height: 186px;position: absolute;left: -45px;top: 90px; display: none" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+					<h2 class="hide">军略对抗 进化重燃</h2>
+					<a onclick="PTTSendClick('btn','play','播放');" class="video-btn" href="javascript:kvVideo();">播放</a>
+					<div class="content">
+						<div class="main clear">
+							<div class="list-wrap">
+								 <div class="fix-wrap">
+    <ul class="fix-top">
+      <li class="top1"><img src="//game.gtimg.cn/images/hongjing/web201809/qrcode2.jpg" alt=""><p>【扫一扫立即下载】</p></li>
+      <li class="top2"><a onclick="PTTSendClick('btn','android','安卓下载');" href="/zlkdatasys/mct/d/play.shtml?device=android">安卓下载</a></li>
+      <li class="top3"><a onclick="PTTSendClick('btn','ios','ios下载');" href="/zlkdatasys/mct/d/play.shtml?device=iphone">ios下载</a></li>
+      <li class="top4"><a onclick="PTTSendClick('btn','pcdownload','pc模拟器下载');" href="//dlied6.qq.com/invc/xfspeed/qqpcmgr/download/GameDownload_hj_100310.123.exe">pc模拟器下载</a></li>
+    </ul>
+    <ul class="fix-foot">
+      <li class="top1"><img src="//game.gtimg.cn/images/hongjing/web201809/code1.jpg" width="144" height="144" alt=""><p>【扫一扫关注红警OL手游】</p></li>
+      <li class="foot1">
+        <a class="foot-btn" target="_blank" onclick="PTTSendClick('btn','enter','进入');" href="//buluo.qq.com/p/barindex.html?bid=370495&from=share_copylink"><span></span><em>兴趣部落</em></a>
+        <a target="_blank" onclick="PTTSendClick('btn','enter','进入');" href="//buluo.qq.com/p/barindex.html?bid=370495&from=share_copylink">进入</a>
+      </li>
+    </ul>
+  </div>
+								<div class="text-box fr">
+									<div class="text-top">
+									  <h3 class="fl">红警快讯</h3>
+									  <p class="fr"><a class="select" onclick="PTTSendClick('btn','home','官网首页');" href="/main.shtml">官网首页</a> &gt; 红警快讯</p>
+									</div>
+									<div class="text-center">
+										<ul class="text-tab clear" id="tab">
+											<li><a onclick="PTTSendClick('btn','rm','热门');" href="/web201809/newslist.html?iType=7012&page=1">热门</a></li>
+											<li><a onclick="PTTSendClick('btn','xw','新闻');" href="/web201809/newslist.html?iType=7013&page=1">新闻</a></li>
+											<li><a onclick="PTTSendClick('btn','gg','公告');" href="/web201809/newslist.html?iType=7014&page=1">公告</a></li>
+											<li><a onclick="PTTSendClick('btn','hd','活动');" href="/web201809/newslist.html?iType=7015&page=1">活动</a></li>
+										</ul>
+										<ul class="text-list">
+											
+											
+										</ul>					
+										<div class="page-num page">
+												
+										</div>					
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>   
+				</div>
+				 <ul class="qrcode">
+    <li class="wx">
+      <a onclick="PTTSendClick('qrcode','wxgzh','微信公众号');" href="javascript:;">
+        <span>微信公众号</span>
+        <img src="//game.gtimg.cn/images/hongjing/web201809/code1.jpg" alt="微信公众号" />
+      </a>
+      <p>微信公众号</p>
+    </li>
+    <li class="yxq">
+      <a onclick="PTTSendClick('qrcode','wxyxq','微信游戏圈');" href="javascript:;">
+        <span>微信游戏圈</span>
+          <img src="//game.gtimg.cn/images/hongjing/web201809/code2.jpg" alt="微信游戏圈" />
+      </a>
+      <p>微信游戏圈</p>
+    </li>
+    <li class="bl">
+      <a onclick="PTTSendClick('qrcode','xqbl','兴趣部落');" href="javascript:;">
+        <span>兴趣部落</span>
+       <img src="//game.gtimg.cn/images/hongjing/web201809/code3.jpg" alt="兴趣部落" /> 
+      </a>
+      <p>兴趣部落</p>
+    </li>
+    <li class="qie">
+      <a onclick="PTTSendClick('qrcode','qie','企鹅电竞');" href="javascript:;">
+        <span>企鹅电竞</span>
+        <img src="//game.gtimg.cn/images/hongjing/web201809/code4.jpg" alt="企鹅电竞" /> 
+      </a>
+      <p>企鹅电竞</p>
+    </li>
+  </ul>
+  <div class="shade video-shade" id="video">
+    <a onclick="PTTSendClick('shade','close','关闭');" class="close" href="javascript:closeVideo();" title="关闭">关闭</a>
+    <div id="banner-video"></div>
+  </div>
+ <div id="gfooter" ams="35118/35135/m20315" age="16" dark="1" ieg-logo="1">
+    <a style="margin: 3px 0 0 10px;width: 58px;height: 28px;cursor:default;" href="javascript:;" title="EA" class="foot_left logo-ea">EA</a>
+    <a style="margin: 3px 0 0 18px;width: 103px;height: 26px;cursor:default;" href="javascript:;" title="有爱互动移动游戏" class="foot_left logo-love">有爱互动移动游戏</a>
+     <a href="javascript:;" class="foot_left icon-rog" style="display: flex;justify-content: center;align-items: center;position: absolute;top: 84px;left: 14px;width: 188px;height: 56px;">
+         <p style="color: #fff;font-size: 16px;text-indent: initial;">联赛赞助商：</p>
+         <img src="//game.gtimg.cn/images/hongjing/web201809/icon-rog.png" style="width: 86px;height: 70px;">
+     </a>
+     <!--<span class="foot_left foot_partner">
+      <span>合作伙伴</span>
+      <a style="width: 85px;height: 25px;cursor:default;" href="javascript:;" title="来电科技" class="logo-laidian">来电科技</a>
+    </span>-->
+    <span class="foot_left moniqi" style=" left: 89%;"><span style="color: #494949;margin: 0 2px;">|</span><a target="_blank" href="//syzs.qq.com/">安卓模拟器</a></span>
+  </div>
+  <script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/title.js"></script>
+  <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+  <script src="//ossweb-img.qq.com/images/js/comm/showDialog.min.js"></script>
+  <script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+  <script src="/web201809/js/common.js"></script>
+  <script id="pcAdaptation" src="/web201809/js/adaptation.js" adaptationId = "wrapBox" charset="utf-8"></script>
+	</div>
+
+<script src="/web201809/js/scroll.js"></script>
+<script src="//ams.qq.com/wmp/data/js/PAGE_WMP_BIZ_TYPE.js"></script>
+<script src="//ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js"></script>
+<script src="/web201809/js/newslist.js"></script>
+<script>
+    //此段代码不能放到外链JS中，
+    var setSite = { //设置网站属性
+      siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+      pageType: "newslist-pc", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+      pageName: "红警快讯-pc", //必填项:页面中文名
+      project: "base",//选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;
+      osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；非微社区页面均是1；可以在链接上加入参数osact=1来灵活设置
+      ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+      stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+    }
+    if (typeof (pgvMain) == 'function') pgvMain();//千万不能忘记！
+   
+</script>
+</body>
+
+</html>

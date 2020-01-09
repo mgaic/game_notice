@@ -29,7 +29,8 @@ class HepingjingyingSpider(scrapy.Spider):
 
 
     def start_requests(self):
-        #新闻　公告　活动　
+        #新闻　公告　活动
+        #数据在js脚本中 红警与和平精英数据格式一致
         return [
                 # 活动入口
                 # scrapy.Request("https://apps.game.qq.com/wmp/v3.1/?p0=182&p1=searchNewsKeywordsList&page=1&pagesize=10&order=sIdxTime&r0=script&r1=NewsObj6859980257066431&type=iTarget&id=4003&source=web_pc",
