@@ -1,275 +1,248 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<meta charset="gbk" />
 <meta charset="gbk">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="robots" content="all">
 <meta name="author" content="Tencent-CP">
 <meta name="Copyright" content="Tencent">
-<meta name="Description" content="《魂斗罗：归来》，是由日本KONAMI与腾讯联手推出的首款3D横版射击手游。继承了魂斗罗最经典的闯关、双人组队，又创新性加入了实时PK、军团对抗等网游玩法。" />
-<meta name="Keywords" content="魂斗罗, 魂斗罗手游,  魂斗罗归来,魂斗罗全新手游,魂斗罗手游官网, KONAMI手游, 腾讯手游, contra" />
-<title>《魂斗罗：归来》-官方网站-腾讯游戏-官方唯一正版手游</title>  
-<link rel="stylesheet" href="//hdl.qq.com/web20170413/css/page.css">
-<link rel="stylesheet" href="//hdl.qq.com/web20170413/css/comm.css">
-<!-- 页面设计：cp | 页面制作：cp | 创建：2017-05-25 -->
-</head>
-<body>  
-<!-- 头部导航 -->
-<div class="navWrap">
-    <div class="navMask"></div>
-    <div class="n-container2">
-        <a href="//hdl.qq.com/" class="n-logo db" target="_blank" tittle="魂斗罗：归来" onclick="PTTSendClick('btn','logo','魂斗罗：归来')">魂斗罗：归来</a>
-        <ul class="c" id="nav">
-            <li class="na-l">
-                <a href="javascript:;" class="na-las na-la1">游戏资料</a>
-                <ul class="menu_list">
-                    <li>
-                        <a href="https://hdl.qq.com/webplat/info/news_version3/21518/28537/28538/m17725/list_1.shtml"
-                            target="_blank" onclick="PTTSendClick('btn','h-link1','新闻资讯')">新闻资讯</a>
-                    </li>
-                    <li>
-                        <a href="//hdl.qq.com/herolist.shtml" target="_blank" onclick="PTTSendClick('btn','h-link2','英雄资料')">英雄资料</a>
-                    </li>
-                    <li>
-                        <a href="https://hdl.qq.com/wqlist.html" target="_blank" onclick="PTTSendClick('btn','h-link3','武器资料')">武器资料</a>
-                    </li>
-                    <li>
-                        <a href="javascript:pop('.pop20');" onclick="PTTSendClick('btn','h-link4','官方爆料站')">官方爆料站</a>
-                    </li>
-                    <li>
-                        <a href="javascript:pop('.pop21');" onclick="PTTSendClick('btn','h-link5','魂斗罗大世界')">魂斗罗大世界</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="na-l">
-                <a href="javascript:;" class="na-las na-la2">攻略中心</a>
-                <ul class="menu_list">
-                    <li>
-                        <a href="https://hdl.qq.com/webplat/info/news_version3/21518/29096/29108/29109/m17728/list_1.shtml"
-                            target="_blank" onclick="PTTSendClick('btn','h-link6','攻略课堂')">攻略课堂</a>
-                    </li>
-                    <li>
-                        <a href="//hdl.qq.com/webplat/info/news_version3/21518/29096/29108/29109/m17728/list_1.shtml"
-                            onclick="PTTSendClick('btn','h-link7','系统玩法')">系统玩法</a>
-                    </li>
-                    <li>
-                        <a href="https://hdl.qq.com/webplat/info/news_version3/21518/29096/29102/29103/m17729/list_1.shtml"
-                            target="_blank" onclick="PTTSendClick('btn','h-link8','视频中心')">视频中心</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="na-l">
-                <a href="javascript:;" class="na-las na-la3">专题中心</a>
-                <ul class="menu_list">
-                    <li>
-                        <a href="//hdl.qq.com/webplat/info/news_version3/21518/29096/34551/m20054/list_1.shtml" target="_blank"
-                            onclick="PTTSendClick('btn','h-link9','版本专区')">版本专区</a>
-                    </li>
-                    <li>
-                        <a href="//hdl.qq.com/webplat/info/news_version3/21518/29096/34553/m20056/list_1.shtml" target="_blank"
-                            onclick="PTTSendClick('btn','h-link10','活动中心')">活动中心</a>
-                    </li>
-                    <li>
-                        <a href="//hdl.qq.com/webplat/info/news_version3/21518/29096/29117/m20055/list_1.shtml" target="_blank"
-                            onclick="PTTSendClick('btn','h-link11','品牌专区')">品牌专区</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="na-l">
-                <a href="javascript:;" class="na-las na-la4">赛事中心</a>
-                <ul class="menu_list">
-                    <li>
-                        <a href="//hdl.qq.com/cp/a20180101event/index.htm" target="_blank" onclick="PTTSendClick('btn','h-link12','燃魂战队联赛')">燃魂战队联赛</a>
-                    </li>
-                    <li>
-                        <a href="//hdl.qq.com/cp/a20170906center/index.shtml" target="_blank" onclick="PTTSendClick('btn','h-link13','WGC大赛')">WGC大赛</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="na-l">
-                <a href="javascript:;" class="na-las na-la5">周边社区</a>
-                <ul class="menu_list">
-                     <li>
-                        <a href="//hdl.qq.com/fans/" target="_blank" onclick="PTTSendClick('btn','h-link14','同人站')">同人站</a>
-                    </li>
-                    <li>
-                        <a href="//hdl.qq.com/wallpaper.shtml" target="_blank" onclick="PTTSendClick('btn','h-link15','壁纸下载')">壁纸下载</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="na-l">
-                <a href="javascript:;" class="na-las na-la6">玩家支持</a>
-                <ul class="menu_list">
-                    <li>
-                        <a href="https://jiazhang.qq.com/jz/home.html" target="_blank" onclick="PTTSendClick('btn','h-link16','成长守护平台')">成长守护平台</a>
-                    </li>
-                    <li>
-                        <a href="javascript:pop('.pop22');" onclick="PTTSendClick('btn','h-link17','客服专区')">客服专区</a>
-                    </li>
-                    <li>
-                        <a href="https://hdl.qq.com/webplat/info/news_version3/21518/28537/28538/28539/m17726/201706/592838.shtml"
-                            target="_blank" onclick="PTTSendClick('btn','h-link18','CDK兑换')">CDK兑换</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <div class="t-text pa c">
-            <a href="javascript:;" class="weixin" onclick="PTTSendClick('btn','weixin','微信')">
-                <span class="imlay imlay1">
-                    <img src="//game.gtimg.cn/images/hdl/web20170413/ewm1.jpg" alt="关注魂斗罗归来微信公众号" width="126" height="126">
-                    <p>关注魂斗罗归来微信公众号</p>
-                </span>
-            </a>
-            <a href="javascript:;" class="shouq" onclick="PTTSendClick('btn','shouq','微博')">
-                <span class="imlay imlay2">
-                    <img src="//game.gtimg.cn/images/hdl/web20170413/ewm3.jpg" alt="关注魂斗罗归来微博" width="126" height="126">
-                    <p>关注魂斗罗归来微博</p>
-                </span>
-            </a>
-            <a href="javascript:;" class="buluo" onclick="PTTSendClick('btn','buluo','部落')">
-                <span class="imlay imlay3">
-                    <img src="//game.gtimg.cn/images/hdl/web20170413/ewm2.jpg" alt="关注魂斗罗归来手Q部落" width="126" height="126">
-                    <p>关注魂斗罗归来手Q部落</p>
-                </span>
-            </a>
-        </div>
-    </div>
-</div>
-<!-- 弹窗 -->
-<div class="act-pop pop20" id="pop20">
-    <a class="act-close" href="javascript:hidePopOk('.pop20')" ontouchend="PTTSendClick('btn','act-close','关闭')" title="关闭">&times;</a>
-    <img src="//game.gtimg.cn/images/hdl/web20170413/blz-ewm.png" alt="爆料站">
-    <p>扫一扫，进入爆料站</p>
-</div>
-<div class="act-pop pop21" id="pop21">
-    <a class="act-close" href="javascript:hidePopOk('.pop21')" ontouchend="PTTSendClick('btn','act-close','关闭')" title="关闭">&times;</a>
-    <img src="//game.gtimg.cn/images/hdl/web20170413/dsj-evm.png" alt="大世界">
-    <p>扫一扫，进入大世界</p>
-</div>
-<div class="act-pop pop22" id="pop22">
-    <a class="act-close" href="javascript:hidePopOk('.pop22')" ontouchend="PTTSendClick('btn','act-close','关闭')" title="关闭">&times;</a>
-    <img src="//game.gtimg.cn/images/hdl/web20170413/kf-ewm.png" alt="客服专区">
-    <p>扫一扫，进入客服专区</p>
-</div>
-<div class="wrap wrap-ny1">  
-    <div class="container y">
-        <div class="head-ny5 pr">
-            <h1 class="hide">《魂斗罗：归来》</h1>
-            <h3 class="hide">攻略课堂</h3>
-         
-        </div>
-        <div class="content-ny1">
-            <ul class="ny-list2 c" id="news_nav">
-                <li><a name="nav" href="/webplat/info/news_version3/21518/28537/28538/m17725/list_1.shtml">最新</a></li>
-                <li><a name="nav" href="/webplat/info/news_version3/21518/28537/28538/28540/m17725/list_1.shtml">新闻</a></li>
-                <li><a name="nav" href="/webplat/info/news_version3/21518/27453/27454/27457/m17725/list_1.shtml">公告</a></li>
-                <li><a name="nav" href="/webplat/info/news_version3/21518/28537/28538/28539/m17725/list_1.shtml">活动</a></li>
-<li><a name="nav" href="/webplat/info/news_version3/21518/28537/28538/28541/m17725/list_1.shtml">媒体</a></li>
-<li><a name="nav" href="/webplat/info/news_version3/21518/29096/29097/34307/m17725/list_1.shtml">赛事</a></li>
-            </ul>
-            <div class="ny-bd">
-                <div class="tab-tanpl">
-                    <ul class="ny-box1">
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201906/812368.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">【二周年】燃魂殿堂玩家评选</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201907/818714.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">【拳王系列故事】老胡的故事</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201907/818717.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">【拳王系列故事】毒霸的故事</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201906/817087.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">第六届燃魂战队联赛落幕，“钢铁先疯”横扫决赛现场！</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201906/817084.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">将帅已出！谁能笑傲第六届燃魂战队联赛？</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201906/817078.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">第六届燃魂战队联赛落幕，“钢铁先疯”横扫决赛现场！</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201906/817061.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">将帅已出！谁能笑傲第六届燃魂战队联赛？</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                                <li>
-                            <a target="_blank" onclick="PTTSendClick('link','news1','新闻1')" href="/webplat/info/news_version3/21518/28537/28538/28539/m17726/201906/816907.shtml">
-                                <strong class="yb-jb">活动</strong>
-                                <h3 class="yb-bt">四强揭晓，谁能更进一步？第六届燃魂战队联赛半决赛即将开幕！</h3>
-                                <p class="yb-text"></p>
-                            </a>
-                        </li>
-                                                                                            </ul>
-                                        <div class="ny-btn2 c">
-                                                                        <a href="/webplat/info/news_version3/21518/28537/28538/28539/m17725/list_2.shtml" class="ny-next db">下一页</a>
-                         
-                    </div>
-                                   </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script src="//ossweb-img.qq.com/images/js/milo/milo-min.js"></script>
-<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
-<script src="//hdl.qq.com/web20170413/js/hdlfoot.js"></script>
-<script src="//ossweb-img.qq.com/images/js/title.js"></script>
-<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
-<script src="//ossweb-img.qq.com/images/js/title.js"></script>
+<!-- QQ聊天窗口名片 -->
+<meta itemprop="name" content="跑跑卡丁车">
+<meta itemprop="description" content="跑跑卡丁车" />
+<meta itemprop="image" content="//game.gtimg.cn/images/wepop/web201910/share.png">
+<meta name="keywords" content="跑跑卡丁车,跑跑卡丁车2.0,跑跑卡丁车,不只是漂移,全民漂移,道具赛,竞速赛,跑跑卡丁车,世纪天成" />
+<meta name="Description" content="跑跑卡丁车，跑跑卡丁车2.0，跑跑卡丁车，不只是漂移，全民漂移" />
+<title>资讯列表-跑跑卡丁车正版手游官方网站-腾讯游戏</title>
+<link rel="stylesheet" href="/web201910/css/comm.css">
+<link rel="stylesheet" href="/web201910/css/news.css">
 <script>
-//按钮
-function sltNav(){
-    var localHref = location.href;
-    var obj, i;
-    i = 0;
-    if (document.getElementsByName("nav")) {
-        obj = document.getElementsByName("nav");
-        while (i < obj.length) {
-            if (obj[i].href == localHref) {
-                obj[i].className = "on";
-                return;
-            }
-            i++;
-        }
-    }
-}
-if (document.getElementById("news_nav")) sltNav();
-//此段代码不能放到外链JS中，
-var setSite={//设置网站属性
-    siteType:"os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
-    pageType:"newslist", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
-    pageName:"新闻列表页", //必填项:页面中文名
-    osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
-    ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
-    stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
-}
-if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+  function is_pc(){
+		var os = new Array("Android","iPhone","Windows Phone","iPod","BlackBerry","MeeGo","SymbianOS");  // 其他类型的移动操作系统类型，自行添加
+		var info = navigator.userAgent;
+		var len = os.length;
+		for (var i = 0; i < len; i++) {
+			if (info.indexOf(os[i]) > 0){
+				return false;
+			}
+		}
+		return true;
+	}
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) location.href = '//wepop.qq.com/m/list.shtml'+location.search;
 </script>
-<script type="text/javascript" src="//hdl.qq.com/web20170413/js/comm.js"></script>
+</head>
+<body>
+	<div class="kv section">
+		<div class="header">
+    <div class="header-content">
+        <img src="//game.gtimg.cn/images/wepop/web201910/ico_logo.png" alt="" class="img-logo">
+        <div class="nav-header">
+            <a href="//wepop.qq.com/main.shtml" target="_blank" onclick="PTTSendClick('btn', 'nav_home', '官网首页')">
+                <span>官网首页</span>
+                <i>HOME</i>
+            </a>
+            <a href="//wepop.qq.com/list.shtml" target="_blank" onclick="PTTSendClick('btn', 'nav_news', '新闻资讯')">
+                <span>新闻资讯</span>
+                <i>news</i>
+            </a>
+            <a href="//wepop.qq.com/list.shtml?type=gl" target="_blank" onclick="PTTSendClick('btn', 'nav_raidres', '攻略中心')">
+                <span>攻略中心</span>
+                <i>RAIDERS</i>
+            </a>
+            <a href="//wepop.qq.com/cp/a20190701zlk/index.html" target="_blank" onclick="PTTSendClick('btn', 'nav_game_info', '游戏资料')">
+                <span>游戏资料</span>
+                <i>game info</i>
+            </a>
+            <a href="//wepop.qq.com/cp/a20191016event/index.html" target="_blank" onclick="PTTSendClick('btn', 'nav_esports', '赛事中心')">
+                <span>赛事中心</span>
+                <i>esports</i>
+            </a>
+            <a href="//wepop.qq.com/videos_list.shtml" target="_blank" onclick="PTTSendClick('btn', 'nav_video', '视频专区')">
+                <span>视频专区</span>
+                <i>video</i>
+            </a>
+            <a href="//wepop.qq.com/list_banb.shtml" target="_blank" onclick="PTTSendClick('btn', 'nav_video', '视频专区')">
+                <span>版本专区</span>
+                <i>EDITION </i>
+            </a>
+            <a href="//wepop.qq.com/cp/a20190601cdk/index.html" target="_blank" onclick="PTTSendClick('btn', 'nav_video', '视频专区')">
+                <span>CDK兑换</span>
+                <i>CD KEY</i>
+            </a>
+            <a href="https://wepop.qq.com/main.shtml#community" onclick="PTTSendClick('btn', 'nav_community', '玩家社区')">
+                <span>玩家社区</span>
+                <i>community</i>
+            </a>
+            <a href="javascript:;" target="_blank" class="kf" onclick="PTTSendClick('btn', 'nav_Customer', '客服专区')">
+                <span>客服专区</span>
+                <i>Customer</i>
+            </a>
+        </div>
+    </div>
+</div>
+	</div>
+	<div class="sec2">
+		<div class="cont">
+			<div class="news_warp">
+				<div class="news-location">
+					<a class="arrows" href="/main.shtml" onclick="PTTSendClick('btn', 'btn-web', '官网首页')">官网首页</a>
+					&gt;
+					<a class="arrows arrow-last" href="javascript:;"></a>
+				</div>
+				<p class="news-title type1"></p>
+				<div class="news_hd">
+					<!-- <a class="current" href="javascript:updateNews('11300');">全部</a>
+					<a href="javascript:updateNews('11332');">新闻</a> -->
+				</div>
+				<ul class="news_list" id="news_list">
+
+				</ul>
+				<div class="pagination">
+					<a href="javascript:;" onclick="PTTSendClick('btn', 'btn-prev', '上一页')">上一页</a>
+					<a href="javascript:;" onclick="PTTSendClick('btn', 'btn-next', '下一页')">下一页</a>
+				</div>
+			</div>
+		</div>
+		<div class="img-box">
+			<img src="//game.gtimg.cn/images/wepop/web201910/list/list-bg-top.png" alt="" class="list-bg-top">
+			<img src="//game.gtimg.cn/images/wepop/web201910/list/list-bg-bot.png" alt="" class="list-bg-bot">
+		</div>
+	</div>
+	<div class="download">
+	<img src="//game.gtimg.cn/images/wepop/web201910/d_window_role.png" alt="" class="d_window_role">
+	<div class="download-con">
+		<!--二维码图片-->
+		<img src="//game.gtimg.cn/images/wepop/web201910/qr_code.jpg"/ class="aside-ewm">
+		<a class="ios" href="https://wepop.qq.com/zlkdatasys/mct/d/play.shtml?device=ios" onclick="PTTSendClick('download','right_ios','悬浮ios下载');"></a>
+		<a class="and" href="https://wepop.qq.com/zlkdatasys/mct/d/play.shtml?device=android" onclick="PTTSendClick('download','right_and','悬浮安卓下载');"></a>
+		<a class="pc" href="http://dldir1.qq.com/syzs/com.tencent.tmgp.WePop_ppkdc_yxgw.exe" onclick="PTTSendClick('download','right_pc','悬浮pc下载');"></a>
+		<a class="qq btn-community" href="javascript:;"></a>
+		<a class="wx btn-community" href="javascript:;"></a>
+		<a class="wb btn-community" href="javascript:;"></a>
+	</div>
+	<a href="javascript:;" class="aside-close"></a>
+	<a href="javascript:;" class="aside-open">
+		<span class="aside-arrow"></span>
+	</a>
+</div>
+
+	<div id="gfooter" dark="1" ieg-logo="1" ams="34565/38298/m20073">
+	<a target="_blank" href="//www.tiancity.com/homepage/" target="_blank" title="世纪天成" class="foot_left logo1">世纪天成</a>
+	<p class="copyright_txt">抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+	<p class="copyright_txt"><a href="https://img1.tiancitycdn.com/common/images/tiancity_www2013.jpg?v=0" target="_blank">沪网文[2019]0896-066</a><span class="f_line">|</span><a href="https://images.tiancity.com/include/portalv3/images/xcwz017.jpg" target="_blank">新出网证(沪)字017号</a></p>
+</div>
+	<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+	<script src="//ossweb-img.qq.com/images/js/title.js"></script>
+	<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+	<script src="//game.gtimg.cn/images/js/fillnewsgicp/v1.2.js" charset="UTF-8"></script>
+	<script src="//js.aq.qq.com/js/aq_common.js"></script>
+	<script src="/web201910/js/comm.js"></script>
+	<script>
+	function getUrlParam(parm,url) {
+	    if (!url) url = location.href;
+	    var reg = new RegExp("(^|&)" + parm + "=([^&]*)(&|$)");
+	    var r = url.substr(url.indexOf("\?") + 1).match(reg);
+	    if (r != null) return unescape(r[2]);
+	    return null;
+	}
+	var type=getUrlParam('type')
+	type=type?type:'news'
+	var newsList;
+	fillNews.setDefault({
+		gameID:187,
+		type:'iTag',
+		newsType:'news',
+		pager:{
+		  wrap:'.pagination',
+		  type:'laypage'
+		},
+		pageSize:11,
+		source:'web_pc',
+		// 详情页地址，因为前面设置了newsType:'news', 所以会在详情页地址后面自动加上?newsid=XXX
+		// detailURL:'detail.shtml',
+		wrap:'#news_list',
+	})
+	var id=0,
+		chanelID=[],
+		chanelName=[],
+		listTitle=''
+	function judgeType(){
+		if(type=='news'){
+			id=11302
+			chanelID=[11302,11332,11333,11334,11335]
+			chanelName=['最新','新闻','公告','活动','赛事']
+			listTitle='资讯列表'
+			$('.news-title').removeClass('type1 type2 type3').addClass('type1')
+		}else if(type=='gl'){
+			id=13129
+			chanelID=[13129, 13130, 13131, 13132, 13133,13134,13135,13136,13137],
+			chanelName=['最新','玩法','技术','系统','车手','赛道','赛车','驾照','宠物']
+			listTitle='攻略列表'
+			$('.news-title').removeClass('type1 type2 type3').addClass('type2')
+		}else if(type=='game'){
+			id=11335
+			chanelID=[11335]
+			chanelName=['最新']
+			listTitle='赛事列表'
+			$('.news-title').removeClass('type1 type2 type3').addClass('type3')
+		}
+		newsList=fillNews.list({
+			id:id,
+			detailURL:'/detail.shtml?type='+type+'&newsid={id}',
+			tpl:'<li><a href="{url}" onclick="PTTSendReport({\'action\': \'click\',\'targetid\': \'{iNewsId}\',\'targettype\':\'news\', \'from\': \'v4\'})" target="_blank"><em>【'+chanelName[0]+'】</em><p>{sTitle}</p></a><span>{sIdxTimeShort}</span></li>',
+			callback:function(result){
+			  // 填充完的回调
+			  console.log(result);
+			  let newslength=result.msg.result.length;
+			  for(let i=0;i<newslength;i++)
+			  {let tid=result.msg.result[i].iNewsId;
+				PTTSendReport({
+					action: 'pop',
+					targetid: tid,//支持批量上报，targetid用英文逗号分隔
+					targettype: "news",
+					from: 'v4'
+				});
+				console.log(tid);
+			}
+			}
+		});
+		var appendHtm="";
+		for(var i=0;i<chanelID.length;i++){
+			var clsName=i==0?'current':''
+			appendHtm+='<a class="'+clsName+'" onclick="PTTSendClick(\'tab\', \''+type+'-tab'+i+'\', \''+type+'tab切换'+i+'\')" href="javascript:updateNews(\''+i+'\');">'+chanelName[i]+'</a>'
+		}
+		$('.news_hd').html(appendHtm)
+		$('.arrows').eq(1).html(listTitle)
+	}
+	judgeType();
+	function updateNews(index){
+		var subId=chanelID[index]
+		newsList.update({
+			id:subId,
+			tpl:'<li><a href="{url}" onclick="PTTSendReport({\'action\': \'click\',\'targetid\': \'{iNewsId}\',\'targettype\':\'news\', \'from\': \'v4\'})" target="_blank"><em>【'+chanelName[index]+'】</em><p>{sTitle}</p></a><span>{sIdxTimeShort}</span></li>'
+		})
+	}
+
+  </script>
+
+	<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+	<script>
+		//TGDialogS('tc3');
+		//此段代码不能放到外链JS中，
+		var setSite = { //设置网站属性
+		siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+		pageType: "list", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+		pageName: "资讯列表", //必填项:页面中文名
+		osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+		ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+		stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+		}
+		if (typeof (pgvMain) == 'function') pgvMain();//千万不能忘记！
+	</script>
+	<script>
+		$('.news_hd a').click(function(){
+			var tIndex = $(this).index();
+			$(this).addClass('current').siblings().removeClass('current');
+		})
+	</script>
 </body>
+</html>

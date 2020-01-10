@@ -16,10 +16,10 @@ NEWSPIDER_MODULE = 'notice_spider.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Dalvik/2.1.0 (Linux; U; Android 6.0; Nexus 5 Build/MRA58K'
+# USER_AGENT = 'Dalvik/2.1.0 (Linux; U; Android 6.0; Nexus 5 Build/MRA58K'
 # USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0'
 
-# USER_AGENT = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0'
+USER_AGENT = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0'
 # USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0'
 
 HTTPERROR_ALLOWED_CODES = [400, 407]#上面报的是403，就把403加入。
